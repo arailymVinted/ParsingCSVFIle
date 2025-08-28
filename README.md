@@ -91,7 +91,7 @@ The tool generates `CategoryLaunchDataProviderModel` entries with:
 ```kotlin
 CategoryLaunchDataProviderModel(
     categoryId = 5429L,
-    categoryLevel = 3L,
+    categoryLevel = CategoryLevel.L3,
     expectedFieldsVisibility = listOf(...),
     expectedConditionTypeIds = setOf(...),
     expectedPackageSizeIds = setOf(...),
@@ -99,6 +99,29 @@ CategoryLaunchDataProviderModel(
     brandId = supplyTestsHelper.getDefaultBrandId(5429L)
 )
 ```
+
+### Category Level Enum
+
+The generated Kotlin code includes a `CategoryLevel` enum for type-safe category level handling:
+
+```kotlin
+enum class CategoryLevel(val id: Long) {
+    ROOT_CATEGORY(1L),
+    L2(2L),
+    L3(3L),
+    L4(4L),
+    L5(5L),
+    L6(6L),
+    L7(7L)
+}
+```
+
+Instead of using raw numeric values, the generated models use the enum with `.id` to access the ID value:
+- `CategoryLevel.L3.id` instead of `3L`
+- `CategoryLevel.L4.id` instead of `4L`
+- `CategoryLevel.ROOT_CATEGORY.id` instead of `1L`
+
+This provides better type safety and makes the code more maintainable while still providing the numeric ID value that the data model expects.
 
 ## Configuration
 

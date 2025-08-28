@@ -1,0 +1,49 @@
+# config.yaml
+csv:
+  file_path: "data/office_suppliess.csv"
+  encoding: "utf-8"
+  columns:
+    leaf: "Leaf"
+    category_id: "ID"
+    level: "Level"
+    brand: "Brand"
+    colour: "Colour"
+    package_size: "Package size"
+    conditions:
+      - "New with tags"
+      - "New without tags"
+      - "Very good"
+      - "Good"
+      - "Satisfactory"
+      - "Not fully functional"
+
+output:
+  kotlin_file: "output/leaf_category_models.kt"
+
+mappings:
+  conditions:
+    "New with tags": "VintedConditionTypes.NEW_WITH_TAGS.id"
+    "New without tags": "VintedConditionTypes.NEW_WITHOUT_TAGS.id"
+    "Very good": "VintedConditionTypes.VERY_GOOD.id"
+    "Good": "VintedConditionTypes.GOOD.id"
+    "Satisfactory": "VintedConditionTypes.SATISFACTORY.id"
+    "Not fully functional": "VintedConditionTypes.NOT_FULLY_FUNCTIONAL.id"
+
+  package_sizes:
+    "All shippable":
+      - "VintedPackageTypes.SMALL.id"
+      - "VintedPackageTypes.MEDIUM.id"
+      - "VintedPackageTypes.LARGE.id"
+    "Light bulky":
+      - "VintedPackageTypes.BULKY_SMALL.id"
+      - "VintedPackageTypes.BULKY_MEDIUM.id"
+      - "VintedPackageTypes.BULKY_LARGE.id"
+      - "VintedPackageTypes.BULKY_X_LARGE.id"
+    "Heavy":
+      - "VintedPackageTypes.HEAVY_SMALL.id"
+      - "VintedPackageTypes.HEAVY_MEDIUM.id"
+      - "VintedPackageTypes.HEAVY_LARGE.id"
+    "Heavy bulky":
+      - "VintedPackageTypes.HEAVY_BULKY_SMALL.id"
+      - "VintedPackageTypes.HEAVY_BULKY_MEDIUM.id"
+      - "VintedPackageTypes.HEAVY_BULKY_LARGE.id"
