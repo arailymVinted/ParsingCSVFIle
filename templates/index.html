@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to Kotlin Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .upload-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .file-upload {
+            border: 3px dashed #e1e5e9;
+            border-radius: 15px;
+            padding: 60px 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: #f8f9fa;
+        }
+
+        .file-upload:hover {
+            border-color: #667eea;
+            background: #f0f2ff;
+        }
+
+        .file-upload.dragover {
+            border-color: #667eea;
+            background: #f0f2ff;
+            transform: scale(1.02);
+        }
+
+        .file-upload input[type="file"] {
+            display: none;
+        }
+
+        .upload-icon {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .upload-text {
+            font-size: 1.2rem;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+
+        .upload-hint {
+            font-size: 0.9rem;
+            color: #adb5bd;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            box-shadow: 0 10px 20px rgba(108, 117, 125, 0.3);
+        }
+
+        .result-section {
+            display: none;
+            margin-top: 30px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #28a745;
+        }
+
+        .result-section.error {
+            border-left-color: #dc3545;
+            background: #f8d7da;
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .result-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #28a745;
+        }
+
+        .result-title.error {
+            color: #dc3545;
+        }
+
+        .result-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .preview-section {
+            margin-top: 20px;
+            display: none;
+        }
+
+        .preview-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .preview-toggle {
+            background: none;
+            border: none;
+            color: #667eea;
+            cursor: pointer;
+            font-size: 0.9rem;
+            text-decoration: underline;
+        }
+
+        .preview-content {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .file-info {
+            margin-top: 15px;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 10px;
+            font-size: 0.9rem;
+        }
+
+        .file-name {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .file-size {
+            color: #6c757d;
+            margin-left: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .file-upload {
+                padding: 40px 20px;
+            }
+            
+            .result-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📱 CSV to Kotlin Converter</h1>
+            <p>Convert your CSV category data to Kotlin data provider models</p>
+        </div>
+        
+        <div class="content">
+            <div class="upload-section">
+                <div class="file-upload" id="fileUpload">
+                    <div class="upload-icon">📁</div>
+                    <div class="upload-text">Drop your CSV file here or click to browse</div>
+                    <div class="upload-hint">Supports CSV files with Leaf, ID, Level, Brand, Colour, and Package size columns</div>
+                    <input type="file" id="csvFile" accept=".csv" />
+                </div>
+                
+                <div class="file-info" id="fileInfo" style="display: none;">
+                    <span class="file-name" id="fileName"></span>
+                    <span class="file-size" id="fileSize"></span>
+                </div>
+                
+                <button class="btn" id="convertBtn" style="display: none;">Convert to Kotlin</button>
+            </div>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <div>Processing your CSV file...</div>
+            </div>
+            
+            <div class="result-section" id="resultSection">
+                <div class="result-header">
+                    <div class="result-title" id="resultTitle">Conversion Complete!</div>
+                    <div class="result-actions" id="resultActions">
+                        <button class="btn btn-secondary" id="previewBtn">Preview</button>
+                        <a class="btn" id="downloadBtn" href="#">Download Kotlin</a>
+                    </div>
+                </div>
+                <div id="resultMessage"></div>
+                
+                <div class="preview-section" id="previewSection">
+                    <div class="preview-header">
+                        <span>Generated Kotlin Code Preview</span>
+                        <button class="preview-toggle" id="closePreview">Close</button>
+                    </div>
+                    <div class="preview-content" id="previewContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fileUpload = document.getElementById('fileUpload');
+        const csvFile = document.getElementById('csvFile');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const fileSize = document.getElementById('fileSize');
+        const convertBtn = document.getElementById('convertBtn');
+        const loading = document.getElementById('loading');
+        const resultSection = document.getElementById('resultSection');
+        const resultTitle = document.getElementById('resultTitle');
+        const resultMessage = document.getElementById('resultMessage');
+        const resultActions = document.getElementById('resultActions');
+        const previewBtn = document.getElementById('previewBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const previewSection = document.getElementById('previewSection');
+        const previewContent = document.getElementById('previewContent');
+        const closePreview = document.getElementById('closePreview');
+
+        // File upload handling
+        fileUpload.addEventListener('click', () => csvFile.click());
+        
+        csvFile.addEventListener('change', handleFileSelect);
+        
+        // Drag and drop
+        fileUpload.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileUpload.classList.add('dragover');
+        });
+        
+        fileUpload.addEventListener('dragleave', () => {
+            fileUpload.classList.remove('dragover');
+        });
+        
+        fileUpload.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileUpload.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                csvFile.files = files;
+                handleFileSelect();
+            }
+        });
+
+        function handleFileSelect() {
+            const file = csvFile.files[0];
+            if (file) {
+                fileName.textContent = file.name;
+                fileSize.textContent = `(${formatFileSize(file.size)})`;
+                fileInfo.style.display = 'block';
+                convertBtn.style.display = 'inline-block';
+                
+                // Reset previous results
+                resultSection.style.display = 'none';
+                previewSection.style.display = 'none';
+            }
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        // Convert button
+        convertBtn.addEventListener('click', async () => {
+            const file = csvFile.files[0];
+            if (!file) return;
+
+            const formData = new FormData();
+            formData.append('csv_file', file);
+
+            // Show loading
+            loading.style.display = 'block';
+            convertBtn.disabled = true;
+            resultSection.style.display = 'none';
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    showSuccess(result);
+                } else {
+                    showError(result.error);
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                loading.style.display = 'none';
+                convertBtn.disabled = false;
+            }
+        });
+
+        function showSuccess(result) {
+            resultTitle.textContent = 'Conversion Complete!';
+            resultTitle.className = 'result-title';
+            resultMessage.innerHTML = `
+                <div style="color: #28a745; margin-bottom: 15px;">
+                    ✅ ${result.message}
+                </div>
+                <div style="color: #6c757d;">
+                    Processed <strong>${result.categories_count}</strong> leaf categories successfully.
+                </div>
+            `;
+            resultSection.style.display = 'block';
+            resultSection.className = 'result-section';
+            
+            // Update download button
+            downloadBtn.href = result.download_url;
+        }
+
+        function showError(error) {
+            resultTitle.textContent = 'Conversion Failed';
+            resultTitle.className = 'result-title error';
+            resultMessage.innerHTML = `
+                <div style="color: #dc3545;">
+                    ❌ ${error}
+                </div>
+            `;
+            resultSection.style.display = 'block';
+            resultSection.className = 'result-section error';
+            resultActions.style.display = 'none';
+        }
+
+        // Preview functionality
+        previewBtn.addEventListener('click', async () => {
+            try {
+                const response = await fetch('/preview');
+                const result = await response.json();
+                
+                if (result.content) {
+                    previewContent.textContent = result.content;
+                    previewSection.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error loading preview:', error);
+            }
+        });
+
+        closePreview.addEventListener('click', () => {
+            previewSection.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
