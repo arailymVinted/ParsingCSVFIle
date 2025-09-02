@@ -18,6 +18,7 @@ class CategoryAttributes:
 @dataclass
 class CategoryData:
     category_id: str
+    is_leaf_category: bool  # Add this field to match the new Kotlin model
     attributes: CategoryAttributes
     package_size: str
     shipping_sizes: List[str]

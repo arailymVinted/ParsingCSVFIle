@@ -41,8 +41,8 @@ class KotlinGenerator:
         """Generate Kotlin CategoryLaunchDataProviderModel entries"""
         lines = [
             "// Generated CategoryLaunchDataProviderModel entries",
-            "// Based on Office supplies data (LEAF categories only)",
-            f"// Total leaf categories: {len(categories)}",
+            "// Based on Office supplies data (ALL categories - both leaf and non-leaf)",
+            f"// Total categories: {len(categories)}",
             "",
             "// Category Level enum",
             "enum class CategoryLevel(val id: Long) {",
@@ -77,6 +77,7 @@ class KotlinGenerator:
 
             entry = f"""CategoryLaunchDataProviderModel(
     categoryId = {category.category_id}L,
+    isLeafCategory = {str(category.is_leaf_category).lower()},
     categoryLevel = {level_enum}.id,
     expectedFieldsVisibility = {field_types_str},
     expectedConditionTypeIds = {condition_ids_str},

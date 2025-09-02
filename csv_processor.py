@@ -110,29 +110,33 @@ class CSVProcessor:
         logger.info(f"CSV structure validated. Total rows: {len(csv_data)}")
 
         categories = []
-        leaf_count = 0
+        total_count = 0
 
         for row_index, row in enumerate(csv_data[1:], 1):
             try:
                 category_data = self._process_row(row, row_index)
                 if category_data:
                     categories.append(category_data)
-                    leaf_count += 1
+                    total_count += 1
             except Exception as e:
                 logger.warning(f"Failed to process row {row_index}: {e}")
                 continue
 
-        logger.info(f"Successfully processed {leaf_count} leaf categories")
+        logger.info(f"Successfully processed {total_count} categories (including both leaf and non-leaf)")
         return categories
 
     def _process_row(self, row: List[str], row_index: int) -> Optional[CategoryData]:
         """Process a single CSV row"""
-        # Check if this is a leaf category
+        # Extract the Leaf value for the data model (but don't filter by it)
         leaf_col = self.config.columns['leaf']
         leaf_idx = self._column_indices[leaf_col]
 
-        if leaf_idx >= len(row) or row[leaf_idx].strip().upper() != 'TRUE':
+        if leaf_idx >= len(row):
+            logger.warning(f"Row {row_index}: Leaf column out of bounds")
             return None
+
+        # Extract the actual Leaf value for the data model
+        leaf_value = row[leaf_idx].strip().upper() == 'TRUE'
 
         # Extract category ID
         category_id_col = self.config.columns['category_id']
@@ -175,6 +179,7 @@ class CSVProcessor:
 
         return CategoryData(
             category_id=category_id,
+            is_leaf_category=leaf_value,  # Add the Leaf column value
             attributes=attributes,
             package_size=package_size,
             shipping_sizes=shipping_sizes,
