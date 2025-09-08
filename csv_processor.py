@@ -18,10 +18,15 @@ class CSVProcessor:
         required_columns = [
             self.config.columns['leaf'],
             self.config.columns['category_id'],
+            self.config.columns['path'],
             self.config.columns['brand'],
             self.config.columns['colour'],
             self.config.columns['level']
         ]
+        
+        # Add package_size column if it exists in config
+        if 'package_size' in self.config.columns:
+            required_columns.append(self.config.columns['package_size'])
 
         missing_columns = [col for col in required_columns if col not in headers]
         if missing_columns:
@@ -37,6 +42,14 @@ class CSVProcessor:
                 self._column_indices[condition] = headers.index(condition)
             else:
                 logger.warning(f"Condition column '{condition}' not found in CSV")
+
+        # Store package size boolean column indices
+        package_size_columns = ['All shippable', 'Heavy shipping', 'Light bulky', 'Heavy bulky']
+        for col_name in package_size_columns:
+            if col_name in headers:
+                self._column_indices[col_name] = headers.index(col_name)
+            else:
+                logger.warning(f"Package size column '{col_name}' not found in CSV")
 
     def _extract_attributes(self, row: List[str]) -> CategoryAttributes:
         """Extract category attributes from CSV row"""
@@ -58,18 +71,53 @@ class CSVProcessor:
             material=None  # Not present in current CSV
         )
 
+    def _extract_path(self, row: List[str]) -> str:
+        """Extract path from CSV row"""
+        path_col = self.config.columns['path']
+        path_idx = self._column_indices.get(path_col)
+        
+        if path_idx is None or path_idx >= len(row):
+            return ""
+        
+        return row[path_idx].strip()
+
     def _extract_package_size(self, row: List[str]) -> str:
-        """Extract package size from CSV row"""
+        """Extract package size from CSV row by checking boolean columns first, then Package size column"""
+        # Check boolean package size columns in order of preference
+        package_size_columns = [
+            ('All shippable', 'All shippable'),
+            ('Heavy shipping', 'Heavy'),
+            ('Light bulky', 'Light bulky'),
+            ('Heavy bulky', 'Heavy bulky')
+        ]
+        
+        for col_name, package_type in package_size_columns:
+            col_idx = self._column_indices.get(col_name)
+            if col_idx is not None and col_idx < len(row):
+                value = row[col_idx].strip().upper()
+                if value == 'TRUE':
+                    return package_type
+        
+        # Fallback to the Package size column if no boolean columns are TRUE
         package_size_col = self.config.columns.get('package_size')
-        if not package_size_col:
-            return "All shippable"
-
-        package_size_idx = self._column_indices.get(package_size_col)
-        if package_size_idx is None or package_size_idx >= len(row):
-            return "All shippable"
-
-        package_size_value = row[package_size_idx].strip()
-        return package_size_value if package_size_value else "All shippable"
+        if package_size_col:
+            package_size_idx = self._column_indices.get(package_size_col)
+            if package_size_idx is not None and package_size_idx < len(row):
+                package_size_value = row[package_size_idx].strip()
+                if package_size_value and package_size_value != '-':
+                    # Map the Package size column value to the correct package type
+                    if package_size_value == 'Light bulky':
+                        return 'Light bulky'
+                    elif package_size_value == 'Heavy':
+                        return 'Heavy'
+                    elif package_size_value == 'Heavy bulky':
+                        return 'Heavy bulky'
+                    elif package_size_value == 'All shippable':
+                        return 'All shippable'
+                    else:
+                        return package_size_value
+        
+        return "All shippable"
 
     def _extract_status_counts(self, row: List[str]) -> Dict[str, int]:
         """Extract status counts from CSV row"""
@@ -167,6 +215,7 @@ class CSVProcessor:
             return None
 
         # Extract all data
+        path = self._extract_path(row)
         attributes = self._extract_attributes(row)
         package_size = self._extract_package_size(row)
         statuses_count = self._extract_status_counts(row)
@@ -180,6 +229,7 @@ class CSVProcessor:
         return CategoryData(
             category_id=category_id,
             is_leaf_category=leaf_value,  # Add the Leaf column value
+            path=path,  # Add the path value
             attributes=attributes,
             package_size=package_size,
             shipping_sizes=shipping_sizes,

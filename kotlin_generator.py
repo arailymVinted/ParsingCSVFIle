@@ -15,15 +15,12 @@ class KotlinGenerator:
         """Generate field types based on category attributes"""
         field_types = []
 
-        if attributes.brand:
-            field_types.append('VintedUploadItemFieldTypes.BRAND_VISIBLE')
-        if attributes.colour:
-            field_types.append('VintedUploadItemFieldTypes.COLOR_VISIBLE')
-        if attributes.material:
-            field_types.append('VintedUploadItemFieldTypes.MATERIAL_VISIBLE')
-
-        # Condition is always visible
+        # Default fields that are always visible
+        field_types.append('VintedUploadItemFieldTypes.SIZE_VISIBLE')
+        field_types.append('VintedUploadItemFieldTypes.BRAND_VISIBLE')
         field_types.append('VintedUploadItemFieldTypes.CONDITION_VISIBLE')
+        field_types.append('VintedUploadItemFieldTypes.COLOR_VISIBLE')
+        field_types.append('VintedUploadItemFieldTypes.MATERIAL_VISIBLE')
 
         return field_types
 
@@ -34,6 +31,16 @@ class KotlinGenerator:
         for status, count in statuses_count.items():
             if count > 0 and status in self.config.condition_mapping:
                 condition_ids.append(self.config.condition_mapping[status])
+
+        # If no specific conditions found, use default conditions
+        if not condition_ids:
+            condition_ids = [
+                'VintedConditionTypes.NEW_WITH_TAGS.id',
+                'VintedConditionTypes.NEW_WITHOUT_TAGS.id',
+                'VintedConditionTypes.VERY_GOOD.id',
+                'VintedConditionTypes.GOOD.id',
+                'VintedConditionTypes.SATISFACTORY.id'
+            ]
 
         return sorted(condition_ids)
 
@@ -79,10 +86,11 @@ class KotlinGenerator:
     categoryId = {category.category_id}L,
     isLeafCategory = {str(category.is_leaf_category).lower()},
     categoryLevel = {level_enum}.id,
+    categoryPath = "{category.path}",
     expectedFieldsVisibility = {field_types_str},
     expectedConditionTypeIds = {condition_ids_str},
     expectedPackageSizeIds = {shipping_sizes_str},
-    expectedSizeGroupsIds = listOf(),
+    expectedSizeGroupsIds = null,
     brandId = supplyTestsHelper.getDefaultBrandId({category.category_id}L)
 ),"""
 

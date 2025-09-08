@@ -19,6 +19,7 @@ class CategoryAttributes:
 class CategoryData:
     category_id: str
     is_leaf_category: bool  # Add this field to match the new Kotlin model
+    path: str  # Add path field for category hierarchy
     attributes: CategoryAttributes
     package_size: str
     shipping_sizes: List[str]

@@ -5,6 +5,7 @@ csv:
   columns:
     leaf: "Leaf"
     category_id: "ID"
+    path: "Path"
     level: "Level"
     brand: "Brand"
     colour: "Colour"
