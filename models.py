@@ -14,6 +14,17 @@ class CategoryAttributes:
     brand: Optional[bool]
     colour: Optional[bool]
     material: Optional[bool]
+    size_group: Optional[bool]
+    author: Optional[bool]
+    title: Optional[bool]
+    isbn: Optional[bool]
+
+@dataclass
+class FieldTypeInfo:
+    """Information about field type (Upload Form + Filters, Upload Form Only, Filters Only)"""
+    field_name: str
+    is_upload_form: bool
+    is_filter: bool
 
 @dataclass
 class CategoryData:
@@ -21,6 +32,7 @@ class CategoryData:
     is_leaf_category: bool  # Add this field to match the new Kotlin model
     path: str  # Add path field for category hierarchy
     attributes: CategoryAttributes
+    field_types: Dict[str, FieldTypeInfo]  # Field type information (Upload Form + Filters, etc.)
     package_size: str
     shipping_sizes: List[str]
     statuses_count: Dict[str, int]
@@ -30,7 +42,8 @@ class CategoryData:
 class Config:
     csv_file_path: str
     csv_encoding: str
-    columns: Dict[str, str]
-    output_kotlin_file: str
-    condition_mapping: Dict[str, str]
-    package_size_mapping: Dict[str, List[str]]
+    delimiter: str = ","
+    columns: Dict[str, str] = None
+    output_kotlin_file: str = ""
+    condition_mapping: Dict[str, str] = None
+    package_size_mapping: Dict[str, List[str]] = None

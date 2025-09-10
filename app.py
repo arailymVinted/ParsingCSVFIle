@@ -27,13 +27,20 @@ def create_temp_config(csv_file_path: str) -> Config:
     return Config(
         csv_file_path=csv_file_path,
         csv_encoding="utf-8",
+        delimiter=",",
         columns={
             'leaf': 'Leaf',
             'category_id': 'ID',
             'level': 'Level',
+            'path': 'Path',
             'brand': 'Brand',
             'colour': 'Colour',
-            'package_size': 'Package size',
+            'material': 'Material',
+            'size_group': 'Size group',
+            'author': 'Author',
+            'title': 'Title',
+            'isbn': 'ISBN',
+            'package_size': 'All shippable',
             'conditions': [
                 'New with tags',
                 'New without tags',

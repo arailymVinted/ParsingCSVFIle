@@ -1,0 +1,13 @@
+Categories,,,,,,Filter attributes,,,,,,,Package sizes,Conditions,,,,,,Hidden
+ID,Code,Name,Path,Level,Leaf,Brand,Colour,Material,Size group,Author,Title,ISBN,All shippable,New with tags,New without tags,Very good,Good,Satisfactory,Not fully functional,Country/countries
+,,,,,,Upload Form + Filters,Upload Form + Filters,Upload Form + Filters,Upload Form + Filters,Upload Form Only,Upload Form Only,Upload Form Only,,,,,,,,
+5428,OFFICE_SUPPLIES,Office supplies,Home/Office supplies,2,FALSE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,TRUE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5429,OS_PLANNERS,Planners & personal organisers,Home/Office supplies/Planners & personal organisers,3,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5430,OS_NOTEBOOKS,Notebooks & writing pads,Home/Office supplies/Notebooks & writing pads,3,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5431,OS_PENCIL_CASES,Pencil cases,Home/Office supplies/Pencil cases,3,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5432,OS_BOOKMARKS,Bookmarks,Home/Office supplies/Bookmarks,3,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5433,OS_CALCULATORS,Calculators,Home/Office supplies/Calculators,3,TRUE,TRUE,TRUE,FALSE,NULL,FALSE,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5434,OS_DESK_ACCESSORIES,Desk accessories,Home/Office supplies/Desk accessories,3,FALSE,TRUE,TRUE,FALSE,NULL,FALSE,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5443,OS_DESK_ORGANISERS,Desk organisers,Home/Office supplies/Desk accessories/Desk organisers,4,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,Need dimensions,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5444,OS_PEN_HOLDERS,Pen holders,Home/Office supplies/Desk accessories/Pen holders,4,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,Heavy bulky,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,
+5445,OS_PAPERWEIGHTS,Paperweights,Home/Office supplies/Desk accessories/Paperweights,4,TRUE,TRUE,TRUE,TRUE,NULL,FALSE,FALSE,FALSE,Light bulky,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,

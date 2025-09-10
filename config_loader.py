@@ -16,6 +16,7 @@ class ConfigLoader:
             return Config(
                 csv_file_path=data['csv']['file_path'],
                 csv_encoding=data['csv']['encoding'],
+                delimiter=data['csv'].get('delimiter', ','),
                 columns=data['csv']['columns'],
                 output_kotlin_file=data['output']['kotlin_file'],
                 condition_mapping=data['mappings']['conditions'],

@@ -11,18 +11,53 @@ class KotlinGenerator:
     def __init__(self, config: Config):
         self.config = config
 
-    def _generate_field_types(self, attributes) -> List[str]:
-        """Generate field types based on category attributes"""
-        field_types = []
+    def _generate_field_types(self, field_types: Dict[str, 'FieldTypeInfo']) -> List[str]:
+        """Generate field types based on field type information"""
+        upload_form_fields = []
 
-        # Default fields that are always visible
-        field_types.append('VintedUploadItemFieldTypes.SIZE_VISIBLE')
-        field_types.append('VintedUploadItemFieldTypes.BRAND_VISIBLE')
-        field_types.append('VintedUploadItemFieldTypes.CONDITION_VISIBLE')
-        field_types.append('VintedUploadItemFieldTypes.COLOR_VISIBLE')
-        field_types.append('VintedUploadItemFieldTypes.MATERIAL_VISIBLE')
+        # Only include fields that are enabled for upload form
+        for field_name, field_info in field_types.items():
+            if field_info.is_upload_form:
+                if field_name == 'brand':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.BRAND_VISIBLE')
+                elif field_name == 'colour':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.COLOR_VISIBLE')
+                elif field_name == 'material':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.MATERIAL_VISIBLE')
+                elif field_name == 'size_group':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.SIZE_VISIBLE')
+                elif field_name == 'author':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.AUTHOR_VISIBLE')
+                elif field_name == 'title':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.TITLE_VISIBLE')
+                elif field_name == 'isbn':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.ISBN_VISIBLE')
 
-        return field_types
+        # Always include condition field as it's always present
+        upload_form_fields.append('VintedUploadItemFieldTypes.CONDITION_VISIBLE')
+
+        return upload_form_fields
+
+    def _generate_filter_types(self, field_types: Dict[str, 'FieldTypeInfo']) -> List[str]:
+        """Generate filter types based on field type information"""
+        filter_fields = []
+
+        # Only include fields that are enabled for filters
+        for field_name, field_info in field_types.items():
+            if field_info.is_filter:
+                if field_name == 'brand':
+                    filter_fields.append('VintedFilterType.BRAND')
+                elif field_name == 'colour':
+                    filter_fields.append('VintedFilterType.COLOR')
+                elif field_name == 'material':
+                    filter_fields.append('VintedFilterType.MATERIAL')
+                elif field_name == 'size_group':
+                    filter_fields.append('VintedFilterType.SIZE')
+
+        # Always include condition filter since condition is always visible in upload form
+        filter_fields.append('VintedFilterType.STATUS')
+
+        return filter_fields
 
     def _generate_condition_ids(self, statuses_count: Dict[str, int]) -> List[str]:
         """Generate condition IDs based on available statuses"""
@@ -71,11 +106,13 @@ class KotlinGenerator:
         ]
 
         for category in categories:
-            field_types = self._generate_field_types(category.attributes)
+            upload_form_fields = self._generate_field_types(category.field_types)
+            filter_fields = self._generate_filter_types(category.field_types)
             condition_ids = self._generate_condition_ids(category.statuses_count)
 
             # Format strings
-            field_types_str = "listOf(" + ", ".join(field_types) + ")"
+            upload_form_fields_str = "listOf(" + ", ".join(upload_form_fields) + ")"
+            filter_fields_str = "listOf(" + ", ".join(filter_fields) + ")" if filter_fields else "emptyList()"
             condition_ids_str = "setOf(" + ", ".join(condition_ids) + ")"
             shipping_sizes_str = "setOf(" + ", ".join(category.shipping_sizes) + ")"
 
@@ -87,7 +124,8 @@ class KotlinGenerator:
     isLeafCategory = {str(category.is_leaf_category).lower()},
     categoryLevel = {level_enum}.id,
     categoryPath = "{category.path}",
-    expectedFieldsVisibility = {field_types_str},
+    expectedFieldsVisibility = {upload_form_fields_str},
+    expectedFiltersVisibility = {filter_fields_str},
     expectedConditionTypeIds = {condition_ids_str},
     expectedPackageSizeIds = {shipping_sizes_str},
     expectedSizeGroupsIds = null,

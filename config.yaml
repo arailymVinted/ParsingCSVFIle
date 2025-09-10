@@ -1,7 +1,8 @@
 # config.yaml
 csv:
-  file_path: "data/office_suppliess.csv"
+  file_path: "data/new_office_supplies_dataset.csv"
   encoding: "utf-8"
+  delimiter: ","
   columns:
     leaf: "Leaf"
     category_id: "ID"
@@ -9,7 +10,12 @@ csv:
     level: "Level"
     brand: "Brand"
     colour: "Colour"
-    package_size: "Package size"
+    material: "Material"
+    size_group: "Size group"
+    author: "Author"
+    title: "Title"
+    isbn: "ISBN"
+    package_size: "All shippable"
     conditions:
       - "New with tags"
       - "New without tags"
@@ -48,3 +54,16 @@ mappings:
       - "VintedPackageTypes.HEAVY_BULKY_SMALL.id"
       - "VintedPackageTypes.HEAVY_BULKY_MEDIUM.id"
       - "VintedPackageTypes.HEAVY_BULKY_LARGE.id"
+
+  field_types:
+    "Upload Form + Filters":
+      brand: { upload_form: true, filter: true }
+      colour: { upload_form: true, filter: true }
+      material: { upload_form: true, filter: true }
+      size_group: { upload_form: true, filter: true }
+    "Upload Form Only":
+      author: { upload_form: true, filter: false }
+      title: { upload_form: true, filter: false }
+      isbn: { upload_form: true, filter: false }
+    "Filters Only":
+      # Add any filters-only fields here if they exist in the future
