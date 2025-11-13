@@ -7,6 +7,7 @@ class FieldType(Enum):
     BRAND = "VintedUploadItemFieldTypes.BRAND_VISIBLE"
     COLOUR = "VintedUploadItemFieldTypes.COLOR_VISIBLE"
     MATERIAL = "VintedUploadItemFieldTypes.MATERIAL_VISIBLE"
+    PATTERN = "VintedUploadItemFieldTypes.PATTERN_VISIBLE"
     CONDITION = "VintedUploadItemFieldTypes.CONDITION_VISIBLE"
 
 @dataclass
@@ -14,10 +15,17 @@ class CategoryAttributes:
     brand: Optional[bool]
     colour: Optional[bool]
     material: Optional[bool]
+    pattern: Optional[bool]
+    size: Optional[bool]
     size_group: Optional[bool]
     author: Optional[bool]
     title: Optional[bool]
     isbn: Optional[bool]
+    language_book: Optional[bool]
+    video_game_rating: Optional[bool]
+    video_game_platform: Optional[bool]
+    internal_memory_capacity: Optional[bool]
+    sim_lock: Optional[bool]
 
 @dataclass
 class FieldTypeInfo:

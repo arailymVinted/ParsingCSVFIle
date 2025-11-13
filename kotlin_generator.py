@@ -24,14 +24,24 @@ class KotlinGenerator:
                     upload_form_fields.append('VintedUploadItemFieldTypes.COLOR_VISIBLE')
                 elif field_name == 'material':
                     upload_form_fields.append('VintedUploadItemFieldTypes.MATERIAL_VISIBLE')
+                elif field_name == 'pattern':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.PATTERN_VISIBLE')
+                elif field_name == 'size':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.SIZE_VISIBLE')
                 elif field_name == 'size_group':
                     upload_form_fields.append('VintedUploadItemFieldTypes.SIZE_VISIBLE')
                 elif field_name == 'author':
                     upload_form_fields.append('VintedUploadItemFieldTypes.AUTHOR_VISIBLE')
-                elif field_name == 'title':
-                    upload_form_fields.append('VintedUploadItemFieldTypes.TITLE_VISIBLE')
                 elif field_name == 'isbn':
                     upload_form_fields.append('VintedUploadItemFieldTypes.ISBN_VISIBLE')
+                elif field_name == 'video_game_rating':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.VIDEO_GAME_RATING_VISIBLE')
+                elif field_name == 'video_game_platform':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.VIDEO_GAME_PLATFORM_VISIBLE')
+                elif field_name == 'internal_memory_capacity':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.STORAGE_VISIBLE')
+                elif field_name == 'sim_lock':
+                    upload_form_fields.append('VintedUploadItemFieldTypes.SIM_LOCK_VISIBLE')
 
         # Always include condition field as it's always present
         upload_form_fields.append('VintedUploadItemFieldTypes.CONDITION_VISIBLE')
@@ -51,11 +61,27 @@ class KotlinGenerator:
                     filter_fields.append('VintedFilterType.COLOR')
                 elif field_name == 'material':
                     filter_fields.append('VintedFilterType.MATERIAL')
-                elif field_name == 'size_group':
+                elif field_name == 'pattern':
+                    filter_fields.append('VintedFilterType.PATTERNS')
+                elif field_name == 'size':
                     filter_fields.append('VintedFilterType.SIZE')
+                # Note: size_group does NOT add SIZE filter - only the 'size' field does
+                elif field_name == 'language_book':
+                    filter_fields.append('VintedFilterType.LANGUAGE')
+                elif field_name == 'video_game_rating':
+                    filter_fields.append('VintedFilterType.VIDEO_GAME_RATING')
+                elif field_name == 'video_game_platform':
+                    filter_fields.append('VintedFilterType.VIDEO_GAME_PLATFORM')
+                elif field_name == 'internal_memory_capacity':
+                    filter_fields.append('VintedFilterType.INTERNAL_MEMORY_CAPACITY')
+                elif field_name == 'sim_lock':
+                    filter_fields.append('VintedFilterType.SIM_LOCK')
 
         # Always include condition filter since condition is always visible in upload form
         filter_fields.append('VintedFilterType.STATUS')
+        
+        # Always include price filter by default
+        filter_fields.append('VintedFilterType.PRICE')
 
         return filter_fields
 
@@ -81,29 +107,29 @@ class KotlinGenerator:
 
     def generate_kotlin_models(self, categories: List[CategoryData]) -> str:
         """Generate Kotlin CategoryLaunchDataProviderModel entries"""
-        lines = [
-            "// Generated CategoryLaunchDataProviderModel entries",
-            "// Based on Office supplies data (ALL categories - both leaf and non-leaf)",
-            f"// Total categories: {len(categories)}",
-            "",
-            "// Category Level enum",
-            "enum class CategoryLevel(val id: Long) {",
-            "    ROOT_CATEGORY(1L),",
-            "    L2(2L),",
-            "    L3(3L),",
-            "    L4(4L),",
-            "    L5(5L),",
-            "    L6(6L),",
-            "    L7(7L)",
-            "}",
-            "",
-            "// Condition mapping:",
-            *[f"// {k} = {v}" for k, v in self.config.condition_mapping.items()],
-            "",
-            "// Package size mapping:",
-            *[f"// {k} = setOf({', '.join(v)})" for k, v in self.config.package_size_mapping.items()],
-            ""
-        ]
+        lines = []
+        
+        # Add header
+        header = """package categoryLaunches.dataProviders
+
+import api.data.models.categoryLaunch.VintedConditionTypes
+import api.data.models.categoryLaunch.VintedPackageTypes
+import api.data.models.categoryLaunch.VintedUploadItemFieldTypes
+import commonUtil.data.enums.VintedFilterType
+import helper.supply.SupplyTestsHelper
+import org.testng.annotations.DataProvider
+
+class CategoryLaunchDataProvider {
+    private val supplyTestsHelper: SupplyTestsHelper get() = SupplyTestsHelper()
+    @DataProvider(name = "leafCategoryDataForCategoryLaunches", parallel = true)
+    fun getDataForLeafCategoriesOnly(): Array<CategoryLaunchDataProviderModel> {
+        return getDataForEachCategory().filter { it.isLeafCategory }.toTypedArray()
+    }
+
+    @DataProvider(name = "dataForCategoryLaunches", parallel = true)
+    fun getDataForEachCategory(): Array<CategoryLaunchDataProviderModel> {
+        return arrayOf("""
+        lines.append(header)
 
         for category in categories:
             upload_form_fields = self._generate_field_types(category.field_types)
@@ -116,13 +142,10 @@ class KotlinGenerator:
             condition_ids_str = "setOf(" + ", ".join(condition_ids) + ")"
             shipping_sizes_str = "setOf(" + ", ".join(category.shipping_sizes) + ")"
 
-            # Map category level to enum
-            level_enum = self._get_level_enum(category.category_level)
-
             entry = f"""CategoryLaunchDataProviderModel(
     categoryId = {category.category_id}L,
     isLeafCategory = {str(category.is_leaf_category).lower()},
-    categoryLevel = {level_enum}.id,
+    categoryLevel = {category.category_level}L,
     categoryPath = "{category.path}",
     expectedFieldsVisibility = {upload_form_fields_str},
     expectedFiltersVisibility = {filter_fields_str},
@@ -134,6 +157,16 @@ class KotlinGenerator:
 
             lines.append(entry)
             lines.append("")
+
+        # Remove the last blank line before adding footer
+        if lines and lines[-1] == "":
+            lines.pop()
+        
+        # Add footer
+        footer = """        )
+    }
+}"""
+        lines.append(footer)
 
         return '\n'.join(lines)
 

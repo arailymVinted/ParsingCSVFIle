@@ -308,8 +308,13 @@
                 
                 <div class="preview-section" id="previewSection">
                     <div class="preview-header">
-                        <span>Generated Kotlin Code Preview</span>
-                        <button class="preview-toggle" id="closePreview">Close</button>
+                        <span>Generated Kotlin Code Preview <span id="chunkIndicator" style="color:#a0aec0; font-size:0.85rem;"></span></span>
+                        <div>
+                            <button class="preview-toggle" id="prevChunk" style="margin-right:8px; display:none;">Previous</button>
+                            <button class="preview-toggle" id="nextChunk" style="margin-right:12px; display:none;">Next</button>
+                            <button class="preview-toggle" id="copyPreview">Copy</button>
+                            <button class="preview-toggle" id="closePreview">Close</button>
+                        </div>
                     </div>
                     <div class="preview-content" id="previewContent"></div>
                 </div>
@@ -334,6 +339,12 @@
         const previewSection = document.getElementById('previewSection');
         const previewContent = document.getElementById('previewContent');
         const closePreview = document.getElementById('closePreview');
+        const copyPreview = document.getElementById('copyPreview');
+        const prevChunk = document.getElementById('prevChunk');
+        const nextChunk = document.getElementById('nextChunk');
+        const chunkIndicator = document.getElementById('chunkIndicator');
+        let previewChunks = [];
+        let currentChunkIndex = 0;
 
         // File upload handling
         fileUpload.addEventListener('click', () => csvFile.click());
@@ -453,8 +464,16 @@
                 const response = await fetch('/preview');
                 const result = await response.json();
                 
-                if (result.content) {
-                    previewContent.textContent = result.content;
+                if (result.chunks && Array.isArray(result.chunks) && result.chunks.length > 0) {
+                    previewChunks = result.chunks;
+                    currentChunkIndex = 0;
+                    renderPreviewChunk();
+                    previewSection.style.display = 'block';
+                } else if (result.content) {
+                    // Backward compatibility
+                    previewChunks = [result.content];
+                    currentChunkIndex = 0;
+                    renderPreviewChunk();
                     previewSection.style.display = 'block';
                 }
             } catch (error) {
@@ -464,6 +483,49 @@
 
         closePreview.addEventListener('click', () => {
             previewSection.style.display = 'none';
+        });
+
+        copyPreview.addEventListener('click', async () => {
+            try {
+                const text = previewContent.textContent || '';
+                await navigator.clipboard.writeText(text);
+                copyPreview.textContent = 'Copied!';
+                setTimeout(() => (copyPreview.textContent = 'Copy'), 1200);
+            } catch (e) {
+                console.error('Copy failed:', e);
+                copyPreview.textContent = 'Copy failed';
+                setTimeout(() => (copyPreview.textContent = 'Copy'), 1200);
+            }
+        });
+
+        function renderPreviewChunk() {
+            previewContent.textContent = previewChunks[currentChunkIndex] || '';
+            const total = previewChunks.length;
+            if (total > 1) {
+                chunkIndicator.textContent = `(chunk ${currentChunkIndex + 1} of ${total}, max 150 entries each)`;
+                prevChunk.style.display = 'inline-block';
+                nextChunk.style.display = 'inline-block';
+                prevChunk.disabled = currentChunkIndex === 0;
+                nextChunk.disabled = currentChunkIndex === total - 1;
+            } else {
+                chunkIndicator.textContent = '';
+                prevChunk.style.display = 'none';
+                nextChunk.style.display = 'none';
+            }
+        }
+
+        prevChunk.addEventListener('click', () => {
+            if (currentChunkIndex > 0) {
+                currentChunkIndex -= 1;
+                renderPreviewChunk();
+            }
+        });
+
+        nextChunk.addEventListener('click', () => {
+            if (currentChunkIndex < previewChunks.length - 1) {
+                currentChunkIndex += 1;
+                renderPreviewChunk();
+            }
         });
     </script>
 </body>

@@ -1,0 +1,767 @@
+Categories,,,,,,Filter attributes,,,,,,,,Package sizes,Conditions,,,,,,Hidden,,,
+ID,Code,Name,Path,Level,Leaf,Brand,Colour,Material,Pattern,Size,Language Book,Video Game Rating,Video Game Platform,Internal memory capacity,Sim Lock,Size group,Author,Title,ISBN,All shippable,New with tags,New without tags,Very good,Good,Satisfactory,Not fully functional,Country/countries,Sorting Order,Size Group ID,Package Size Group
+,,,,,,Upload Form + Filters,Upload Form + Filters,Upload Form + Filters,Filters Only,Upload Form + Filters,Filters Only,Upload Form + Filters,Upload Form + Filters,Upload Form + Filters,Upload Form + Filters,Upload Form + Filters,Upload Form Only,Upload Form Only,,,,,,,,,,,
+5428,OFFICE_SUPPLIES,Office supplies,Home/Office supplies,2,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5429,OS_PLANNERS,Planners & personal organisers,Home/Office supplies/Planners & personal organisers,3,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5430,OS_NOTEBOOKS,Notebooks & writing pads,Home/Office supplies/Notebooks & writing pads,3,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5431,OS_PENCIL_CASES,Pencil cases,Home/Office supplies/Pencil cases,3,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5432,OS_BOOKMARKS,Bookmarks,Home/Office supplies/Bookmarks,3,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5433,OS_CALCULATORS,Calculators,Home/Office supplies/Calculators,3,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5434,OS_DESK_ACCESSORIES,Desk accessories,Home/Office supplies/Desk accessories,3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5443,OS_DESK_ORGANISERS,Desk organisers,Home/Office supplies/Desk accessories/Desk organisers,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5444,OS_PEN_HOLDERS,Pen holders,Home/Office supplies/Desk accessories/Pen holders,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5445,OS_PAPERWEIGHTS,Paperweights,Home/Office supplies/Desk accessories/Paperweights,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5446,OS_CLIPBOARDS,Clipboards,Home/Office supplies/Desk accessories/Clipboards,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5447,OS_DESK_MATS,Desk mats,Home/Office supplies/Desk accessories/Desk mats,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5448,OS_CABLE_ORGANISERS,Cable organisers,Home/Office supplies/Desk accessories/Cable organisers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5449,OS_WRIST_RESTS,Wrist rests,Home/Office supplies/Desk accessories/Wrist rests,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5450,OS_LAP_DESKS,Lap desks,Home/Office supplies/Desk accessories/Lap desks,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5451,OS_MAGNIFIERS,Magnifiers,Home/Office supplies/Desk accessories/Magnifiers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5435,OS_DOCUMENT_ORGANISERS,Document organisers,Home/Office supplies/Document organisers,3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5452,OS_FOLDERS,Folders,Home/Office supplies/Document organisers/Folders,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5453,OS_BINDERS,Binders,Home/Office supplies/Document organisers/Binders,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5454,OS_BINDER_ACCESSORIES,Binder accessories,Home/Office supplies/Document organisers/Binder accessories,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5455,OS_MAGAZINE_FILES,Magazine files,Home/Office supplies/Document organisers/Magazine files,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5436,OS_WRITING_SUPPLIES,Writing supplies,Home/Office supplies/Writing supplies,3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5456,OS_PENS,Pens,Home/Office supplies/Writing supplies/Pens,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5457,OS_PENCILS,Pencils,Home/Office supplies/Writing supplies/Pencils,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5458,OS_PENCIL_REFILLS,Pencil refills,Home/Office supplies/Writing supplies/Pencil refills,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5459,OS_HIGHLIGHTERS,Highlighters,Home/Office supplies/Writing supplies/Highlighters,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5460,OS_PENCIL_SHARPENERS,Pencil sharpeners,Home/Office supplies/Writing supplies/Pencil sharpeners,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5461,OS_RUBBERS,Rubbers,Home/Office supplies/Writing supplies/Rubbers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5437,OS_TECHNICAL_DRAWING,Technical drawing tools,Home/Office supplies/Technical drawing tools,3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5462,OS_RULERS,Rulers,Home/Office supplies/Technical drawing tools/Rulers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5463,OS_DRAFTING_COMPASSES,Drafting compasses,Home/Office supplies/Technical drawing tools/Drafting compasses,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5464,OS_PROTRACTORS,Protractors,Home/Office supplies/Technical drawing tools/Protractors,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5465,OS_TEMPLATES,Templates,Home/Office supplies/Technical drawing tools/Templates,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5466,OS_GEOMETRY_SETS,Geometry sets,Home/Office supplies/Technical drawing tools/Geometry sets,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5438,OS_FASTENERS,"Tape, clips & fasteners","Home/Office supplies/Tape, clips & fasteners",3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5467,OS_TAPE_DISPENSERS,Tape dispensers,"Home/Office supplies/Tape, clips & fasteners/Tape dispensers",4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5468,OS_TRANSPARENT_TAPE,Transparent tape,"Home/Office supplies/Tape, clips & fasteners/Transparent tape",4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5469,OS_PAPER_CLIPS,Paper clips,"Home/Office supplies/Tape, clips & fasteners/Paper clips",4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5470,OS_BINDER_CLIPS,Binder clips,"Home/Office supplies/Tape, clips & fasteners/Binder clips",4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5471,OS_RUBBER_BANDS,Rubber bands,"Home/Office supplies/Tape, clips & fasteners/Rubber bands",4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5472,OS_PINS_TACKS,Pins & tacks,"Home/Office supplies/Tape, clips & fasteners/Pins & tacks",4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5439,OS_STAPLERS_PUNCHES,Staplers & hole punches,Home/Office supplies/Staplers & hole punches,3,FALSE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5473,OS_STAPLERS,Staplers,Home/Office supplies/Staplers & hole punches/Staplers,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5474,OS_STAPLE_REMOVERS,Staple removers,Home/Office supplies/Staplers & hole punches/Staple removers,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5475,OS_STAPLES,Staples,Home/Office supplies/Staplers & hole punches/Staples,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5476,OS_HOLE_PUNCHES,Hole punches,Home/Office supplies/Staplers & hole punches/Hole punches,4,TRUE,TRUE,TRUE,TRUE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5440,OS_PRESENTATION_SUPPLIES,Presentation supplies,Home/Office supplies/Presentation supplies,3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5477,OS_FLIPCHARTS,Flipcharts,Home/Office supplies/Presentation supplies/Flipcharts,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5478,OS_CHALKBOARDS,Chalkboards,Home/Office supplies/Presentation supplies/Chalkboards,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5479,OS_WHITEBOARDS,Whiteboards,Home/Office supplies/Presentation supplies/Whiteboards,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5480,OS_WHITEBOARD_MARKERS,Whiteboard markers,Home/Office supplies/Presentation supplies/Whiteboard markers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5481,OS_BOARD_ERASERS,Board erasers,Home/Office supplies/Presentation supplies/Board erasers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5482,OS_PRESENTATION_CLICKERS,Presentation clickers,Home/Office supplies/Presentation supplies/Presentation clickers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5441,OS_OFFICE_ELECTRONICS,Office electronics,Home/Office supplies/Office electronics,3,FALSE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5483,OS_DOCUMENT_CAMERAS,Document cameras,Home/Office supplies/Office electronics/Document cameras,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5484,OS_LAMINATORS,Laminators,Home/Office supplies/Office electronics/Laminators,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5485,OS_HEAT_SEALERS,Heat sealers,Home/Office supplies/Office electronics/Heat sealers,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5486,OS_TRANSLATORS,Electronic dictionaries & translators,Home/Office supplies/Office electronics/Electronic dictionaries & translators,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5487,OS_BINDING_MACHINES,Binding machines,Home/Office supplies/Office electronics/Binding machines,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5488,OS_PAPER_CUTTING,Paper cutting devices,Home/Office supplies/Office electronics/Paper cutting devices,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5489,OS_PAPER_SHREDDERS,Paper shredders,Home/Office supplies/Office electronics/Paper shredders,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5490,OS_TYPEWRITERS,Typewriters,Home/Office supplies/Office electronics/Typewriters,4,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5442,OS_SAFES,Safes,Home/Office supplies/Safes,3,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5280,AC_DRAWING_MEDIA_PENS,Art pens,Hobbies & collectables/Arts & crafts/Drawing & sketching/Drawing & sketching media/Art pens,5,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+5278,AC_DRAWING_MEDIA_PENCILS,Art pencils,Hobbies & collectables/Arts & crafts/Drawing & sketching/Drawing & sketching media/Art pencils,5,TRUE,TRUE,TRUE,FALSE,FALSE,,NULL,FALSE,,,,FALSE,FALSE,All shippable,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,,
+2994,ELECTRONICS,Electronics,Electronics,1,FALSE,TRUE,TRUE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,270,,0
+3566,ELECTRONICS_AUDIO,"Audio, headphones & hi-fi","Electronics/Audio, headphones & hi-fi",2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+3686,ELECTRONICS_AUDIO_ACCESSORIES,Audio device accessories,"Electronics/Audio, headphones & hi-fi/Audio device accessories",3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,,0
+3565,ELECTRONICS_PHONES,Mobile phones & communication,Electronics/Mobile phones & communication,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
+3662,ELECTRONICS_PHONES_ACCESSORIES,Mobile phone parts & accessories,Electronics/Mobile phones & communication/Mobile phone parts & accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+3667,ELECTRONICS_PHONEACC_CASES,Mobile phone cases,Electronics/Mobile phones & communication/Mobile phone parts & accessories/Mobile phone cases,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
+2309,ENTERTAINMENT,Entertainment,Entertainment,1,FALSE,TRUE,FALSE,FALSE,FALSE,,FALSE,TRUE,,,,FALSE,FALSE,All Shipping,,,,,,,,280,,0
+2312,BOOKS,Books,Entertainment/Books,2,FALSE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,1000,,0
+5427,COLOURING_ACTIVITY_BOOKS,"Colouring, puzzle & activity books","Entertainment/Books/Colouring, puzzle & activity books",3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,,0
+5425,COMICS_MANGA,"Comics, manga & graphic novels","Entertainment/Books/Comics, manga & graphic novels",3,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,7000,,0
+2318,KIDS_AND_YOUNG_ADULTS,Kids & young adults,Entertainment/Books/Kids & young adults,3,FALSE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,6750,,0
+2365,H_BOOKS_BABIES_TODDLERS,Babies & toddlers,Entertainment/Books/Kids & young adults/Babies & toddlers,4,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,6900,,0
+2364,H_BOOKS_KIDS,Kids,Entertainment/Books/Kids & young adults/Kids,4,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,6850,,0
+2363,H_BOOKS_YOUNG_ADULTS,Young adults,Entertainment/Books/Kids & young adults/Young adults,4,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,6800,,0
+2319,LITERATURE_AND_FICTION,Fiction,Entertainment/Books/Literature & fiction,3,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,5300,,0
+2320,NON_FICTION,Non-fiction,Entertainment/Books/Non-fiction,3,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,5800,,0
+5426,TEXTBOOKS,Textbooks & study materials,Entertainment/Books/Textbooks & study materials,3,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,8000,,0
+5424,MAGAZINES,Magazines,Entertainment/Magazines,2,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1500,,0
+3041,ENTERTAINMENT_MUSIC_VINYL,Vinyl records,Entertainment/Music/Vinyl records,3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+4824,HOBBIES_COLLECTABLES,Hobbies & collectables,Hobbies & collectables,1,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,Heavy Bulky,,,,,,,,290,,6
+4881,HC_BOARD_GAMES,Board games,Hobbies & collectables/Board games,2,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+4899,HC_NUMISMATICS_MEDALSTOKENS,Medals & tokens,Hobbies & collectables/Coins & banknotes/Medals & tokens,3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+4906,HC_STORAGE,Collectables storage,Hobbies & collectables/Collectables storage,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,,0
+4912,HC_STORAGE_ALBUMDIVIDERS,Album & binder dividers,Hobbies & collectables/Collectables storage/Album & binder dividers,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+4913,HC_STORAGE_ALBUMREFILLS,Album & binder refills,Hobbies & collectables/Collectables storage/Album & binder refills,3,TRUE,TRUE,FALSE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,,0
+4907,HC_STORAGE_ALBUMS,Albums & binders,Hobbies & collectables/Collectables storage/Albums & binders,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
+4910,HC_STORAGE_SCREWDOWNS,Card screwdowns,Hobbies & collectables/Collectables storage/Card screwdowns,3,TRUE,TRUE,FALSE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+4909,HC_STORAGE_SLEEVES,Card sleeves,Hobbies & collectables/Collectables storage/Card sleeves,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
+4908,HC_STORAGE_BOXES,Collectables storage boxes,Hobbies & collectables/Collectables storage/Collectables storage boxes,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+4911,HC_STORAGE_DECKBOXES,Deck boxes,Hobbies & collectables/Collectables storage/Deck boxes,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,,0
+4894,HC_POSTCARDS,Postcards,Hobbies & collectables/Postcards,2,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,,0
+4882,HC_PUZZLES,Puzzles,Hobbies & collectables/Puzzles,2,TRUE,TRUE,FALSE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
+4888,HC_PHILATELY,Stamps,Hobbies & collectables/Stamps,2,FALSE,TRUE,TRUE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,,0
+4891,HC_PHILATELY_FDC,First day covers,Hobbies & collectables/Stamps/First day covers,3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
+4892,HC_PHILATELY_GUIDES,Stamp catalogues & guides,Hobbies & collectables/Stamps/Stamp catalogues & guides,3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,,,,,TRUE,TRUE,All Shipping,,,,,,,,4000,,0
+4890,HC_PHILATELY_LOTS,Stamp lots & sets,Hobbies & collectables/Stamps/Stamp lots & sets,3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+4893,HC_PHILATELY_TOOLS,Stamp tools & equipment,Hobbies & collectables/Stamps/Stamp tools & equipment,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,,0
+4874,HC_TRADING_CARDS,Trading cards,Hobbies & collectables/Trading cards,2,FALSE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
+4877,HC_TRADINGCARDS_BOXES,Booster boxes,Hobbies & collectables/Trading cards/Booster boxes,3,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
+4876,HC_TRADINGCARDS_BOOSTERS,Booster packs,Hobbies & collectables/Trading cards/Booster packs,3,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+4878,HC_TRADINGCARDS_DECKS,Card decks,Hobbies & collectables/Trading cards/Card decks,3,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+4875,HC_TRADINGCARDS_SINGLES,Single trading cards,Hobbies & collectables/Trading cards/Single trading cards,3,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
+4879,HC_TRADINGCARDS_LOTS,Trading card lots,Hobbies & collectables/Trading cards/Trading card lots,3,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,,0
+4880,HC_TRADINGCARDS_UNCUTSHEETS,Uncut card sheets,Hobbies & collectables/Trading cards/Uncut card sheets,3,TRUE,TRUE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+1918,HOME,Home,Home,1,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,250,55,0
+2915,HOLIDAYS_CELEBRATIONS,Celebrations & holidays,Home/Celebrations & holidays,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,,0
+2918,GREETING_CARDS,Cards & envelopes,Home/Celebrations & holidays/Cards & envelopes,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,,0
+1934,H_ACCESSORIES,Home accessories,Home/Home accessories,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,Heavy,,,,,,,,8000,55,3
+1935,H_CANDLES_CANDLE_HOLDERS,Candles & candle holders,Home/Home accessories/Candles & home fragrance,3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,55,0
+1957,H_CANDLEHOLDERS,Candle holders,Home/Home accessories/Candles & home fragrance/Candle holders,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,55,0
+3823,DECORATIVE_ACCESSORIES,Decorative accessories,Home/Home accessories/Decorative accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,220,,0
+3829,ORNAMENTS,Ornaments,Home/Home accessories/Decorative accessories/Ornaments,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+1937,H_FRAMES,Picture & photo frames,Home/Home accessories/Picture & photo frames,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,400,55,0
+2005,H_DRINKWARE,Drinkware,Home/Tableware/Drinkware,3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,350,55,0
+2006,H_CUPS_MUGS,Cups & mugs,Home/Tableware/Drinkware/Cups & mugs,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,55,0
+1714,ACCESSORIES_BOYS_NEW,Accessories,Kids/Boys clothing/Accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,45,32,0
+1743,BELTS_BOYS_NEW,Belts,Kids/Boys clothing/Accessories/Belts,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,70,0
+1749,CAPS_BOYS_NEW,Caps & hats,Kids/Boys clothing/Accessories/Caps & hats,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,43,0
+1740,GLOVES_BOYS_NEW,Gloves,Kids/Boys clothing/Accessories/Gloves,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1741,SCARVES_BOYS_NEW,Scarves & shawls,Kids/Boys clothing/Accessories/Scarves & shawls,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1746,BOWS_BOYS_NEW,Ties & bow ties,Kids/Boys clothing/Accessories/Ties & bow ties,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+1745,WALLETS_BOYS_NEW,Wallets,Kids/Boys clothing/Accessories/Wallets,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1204,BOYS_SPORTS,Activewear,Kids/Boys clothing/Activewear,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,32,0
+1257,BOYS_BAGS,Bags & backpacks,Kids/Boys clothing/Bags & backpacks,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,32,0
+1760,BOYS_PACKAGES,Clothing bundles,Kids/Boys clothing/Clothing bundles,3,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,95,32,0
+1761,TWINS_BOYS_NEW,Clothing for twins,Kids/Boys clothing/Clothing for twins,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,32,0
+1762,OCC_BOYS_NEW,Fancy dress & costumes,Kids/Boys clothing/Fancy dress & costumes,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,105,32,0
+2083,BOYS_THEMED_COSTUMES,Formal wear & special occasion clothing,Kids/Boys clothing/Formal wear & special occasion clothing,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,107,32,0
+1199,BOYS_SWEATERS,Jumpers & hoodies,Kids/Boys clothing/Jumpers & hoodies,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1672,HOODIES_BOYS_NEW,Hoodies & sweatshirts,Kids/Boys clothing/Jumpers & hoodies/Hoodies & sweatshirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1668,SWEATERS_BOYS_NEW,Jumpers,Kids/Boys clothing/Jumpers & hoodies/Jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1887,OTHER_SWEATERS_BOYS,Other jumpers & hoodies,Kids/Boys clothing/Jumpers & hoodies/Other jumpers & hoodies,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,32,0
+1673,VESTS_BOYS_NEW,Sleeveless jumpers,Kids/Boys clothing/Jumpers & hoodies/Sleeveless jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1670,TURLENECK_BOYS_NEW,Turtleneck jumpers,Kids/Boys clothing/Jumpers & hoodies/Turtleneck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1669,VNECK_SWEATERS_BOYS_NEW,V-neck jumpers,Kids/Boys clothing/Jumpers & hoodies/V-neck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1671,ZIPP_SWEATERS_BOYS_NEW,Zip-up jumpers,Kids/Boys clothing/Jumpers & hoodies/Zip-up jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,32,0
+1205,BOYS_OTHER,Other boys' clothing,Kids/Boys clothing/Other boys' clothing,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,110,32,0
+1197,BOYS_COATS,Outerwear,Kids/Boys clothing/Outerwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,32,0
+1647,BOYS_COATS_NEW,Coats,Kids/Boys clothing/Outerwear/Coats,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2561,BOYS_DUFFLE_COATS,Duffle coats,Kids/Boys clothing/Outerwear/Coats/Duffle coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2562,BOYS_PARKAS,Parkas,Kids/Boys clothing/Outerwear/Coats/Parkas,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2563,BOYS_PEACOATS,Peacoats,Kids/Boys clothing/Outerwear/Coats/Peacoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2564,BOYS_TRENCH_COATS,Trench coats,Kids/Boys clothing/Outerwear/Coats/Trench coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+1646,BOYS_OUTVESTS_NEW,Gilets & body warmers,Kids/Boys clothing/Outerwear/Gilets & body warmers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+1649,BOYS_JACKETS_NEW,Jackets,Kids/Boys clothing/Outerwear/Jackets,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2571,BOYS_BLAZERS,Blazers,Kids/Boys clothing/Outerwear/Jackets/Blazers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2573,BOYS_BOMBER_JACKETS,Bomber jackets,Kids/Boys clothing/Outerwear/Jackets/Bomber jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2574,BOYS_DENIM_JACKETS,Denim jackets,Kids/Boys clothing/Outerwear/Jackets/Denim jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2575,BOYS_FLEECE_JACKETS,Fleece jackets,Kids/Boys clothing/Outerwear/Jackets/Fleece jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+2576,BOYS_PUFFER_JACKETS,Puffer jackets,Kids/Boys clothing/Outerwear/Jackets/Puffer jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,32,0
+2577,BOYS_WINDBREAKERS,Windbreakers,Kids/Boys clothing/Outerwear/Jackets/Windbreakers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,32,0
+2583,BOYS_RAIN_GEAR,Rain gear,Kids/Boys clothing/Outerwear/Rain gear,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+2604,BOYS_PONCHOS,Ponchos,Kids/Boys clothing/Outerwear/Rain gear/Ponchos,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2609,BOYS_RAIN_SUITS_SETS,Rain suits & sets,Kids/Boys clothing/Outerwear/Rain gear/Rain suits & sets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2602,BOYS_RAIN_PANTS,Rain trousers,Kids/Boys clothing/Outerwear/Rain gear/Rain trousers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2606,BOYS_RAINCOATS,Raincoats,Kids/Boys clothing/Outerwear/Rain gear/Raincoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+2590,BOYS_SNOW_GEAR,Snow gear,Kids/Boys clothing/Outerwear/Snow gear,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,,0
+2610,BOYS_SNOW_COATS_JACKETS,Snow jackets & coats,Kids/Boys clothing/Outerwear/Snow gear/Snow jackets & coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2613,BOYS_SNOW_SUITS_SETS,Snow suits & sets,Kids/Boys clothing/Outerwear/Snow gear/Snow suits & sets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2612,BOYS_SNOW_PANTS,Snow trousers,Kids/Boys clothing/Outerwear/Snow gear/Snow trousers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+1256,BOYS_SHOES,Shoes,Kids/Boys clothing/Shoes,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,31,0
+2721,BOYS_BOAT_LOAFERS_MOCCASINS,"Boat shoes, loafers & moccasins","Kids/Boys clothing/Shoes/Boat shoes, loafers & moccasins",4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+1657,BOOTS_BOYS_NEW,Boots,Kids/Boys clothing/Shoes/Boots,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2726,BOYS_ANKLE_BOOTS,Ankle boots,Kids/Boys clothing/Shoes/Boots/Ankle boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2727,BOYS_MID_CALF_BOOTS,Mid-calf boots,Kids/Boys clothing/Shoes/Boots/Mid-calf boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2728,BOYS_SNOW_BOOTS,Snow boots,Kids/Boys clothing/Shoes/Boots/Snow boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2729,BOYS_WELLINGTONS,Wellington boots,Kids/Boys clothing/Shoes/Boots/Wellington boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+2722,BOYS_ESPADRILLES,Espadrilles,Kids/Boys clothing/Shoes/Espadrilles,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+2723,BOYS_FLIP_FLOPS_SANDALS_SLIDES,"Flip-flops, sandals & slides","Kids/Boys clothing/Shoes/Flip-flops, sandals & slides",4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,31,0
+2730,BOYS_CLOGS_MULES,Clogs & mules,"Kids/Boys clothing/Shoes/Flip-flops, sandals & slides/Clogs & mules",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2732,BOYS_FLIP_FLOPS_2,Flip-flops,"Kids/Boys clothing/Shoes/Flip-flops, sandals & slides/Flip-flops",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2733,BOYS_SANDALS,Sandals,"Kids/Boys clothing/Shoes/Flip-flops, sandals & slides/Sandals",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2734,BOYS_SLIDES,Slides,"Kids/Boys clothing/Shoes/Flip-flops, sandals & slides/Slides",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+1655,SHOES_OCC_BOYS_NEW,Formal & special occasion shoes,Kids/Boys clothing/Shoes/Formal & special occasion shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,31,0
+1661,SLIPPERS_BOYS_NEW,Slippers,Kids/Boys clothing/Shoes/Slippers,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,31,0
+2724,BOYS_SPORT_SHOES,Sports shoes,Kids/Boys clothing/Shoes/Sports shoes,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,31,0
+2735,BOYS_BASKETBALL_SHOES,Basketball shoes,Kids/Boys clothing/Shoes/Sports shoes/Basketball shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2737,BOYS_DANCE_SHOES_2,Dance shoes,Kids/Boys clothing/Shoes/Sports shoes/Dance shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2738,BOYS_FOOTBALL_BOOTS,Football boots,Kids/Boys clothing/Shoes/Sports shoes/Football boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2742,BOYS_HIKING_BOOTS_SHOES_3,Hiking boots & shoes,Kids/Boys clothing/Shoes/Sports shoes/Hiking boots & shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+2744,BOYS_ROLLER_SKATES_BLADES,Roller skates & inline skates,Kids/Boys clothing/Shoes/Sports shoes/Roller skates & inline skates,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,31,0
+2745,BOYS_RUNNING_SHOES,Running shoes,Kids/Boys clothing/Shoes/Sports shoes/Running shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,31,0
+2746,BOYS_SKI_BOOTS,Ski boots,Kids/Boys clothing/Shoes/Sports shoes/Ski boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,31,0
+2748,BOYS_SNOWBOARD_BOOTS_2,Snowboard boots,Kids/Boys clothing/Shoes/Sports shoes/Snowboard boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,31,0
+2749,BOYS_SWIMMING_WATER_SHOES,Swimming & water shoes,Kids/Boys clothing/Shoes/Sports shoes/Swimming & water shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,31,0
+1660,SNEAKERS_BOYS_NEW,Trainers,Kids/Boys clothing/Shoes/Trainers,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,31,0
+2750,BOYS_HOOK_LOOP_TRAINERS,Hook-and-loop trainers,Kids/Boys clothing/Shoes/Trainers/Hook-and-loop trainers,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2751,BOYS_LACE_UP_TRAINERS,Lace-up trainers,Kids/Boys clothing/Shoes/Trainers/Lace-up trainers,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2752,BOYS_SLIP_ON_TRAINERS,Slip-on trainers,Kids/Boys clothing/Shoes/Trainers/Slip-on trainers,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+1752,SLEEPWEAR_BOYS_NEW,Sleepwear,Kids/Boys clothing/Sleepwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,85,32,0
+1754,ONEPIECE_PAJAMAS_BOYS,One-piece pyjamas,Kids/Boys clothing/Sleepwear/One-piece pyjamas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1755,TWOPIECE_PAJAMAS_BOYS,Two-piece pyjamas,Kids/Boys clothing/Sleepwear/Two-piece pyjamas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1202,BOYS_SWIM,Swimwear,Kids/Boys clothing/Swimwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,32,0
+1751,BATHROBES_BOYS_NEW,Bathrobes,Kids/Boys clothing/Swimwear/Bathrobes,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1750,BATHSHORTS_BOYS_NEW,Swimming trunks,Kids/Boys clothing/Swimwear/Swimming trunks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1198,BOYS_SHIRTS,Tops & t-shirts,Kids/Boys clothing/Tops & t-shirts,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1666,LONGSLEEVE_BOYS_NEW,Long-sleeved tops,Kids/Boys clothing/Tops & t-shirts/Long-sleeved tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1886,OTHER_TOPS_BOYS,Other tops & t-shirts,Kids/Boys clothing/Tops & t-shirts/Other tops & t-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+1663,POLOSHIRTS_BOYS_NEW,Polo shirts,Kids/Boys clothing/Tops & t-shirts/Polo shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1664,SHIRTS_BOYS_NEW,Shirts,Kids/Boys clothing/Tops & t-shirts/Shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1665,SHORTSLEEVE_SHIRTS_BOYS_NEW,Short-sleeved tops,Kids/Boys clothing/Tops & t-shirts/Short-sleeved tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,32,0
+1667,SLEEVELESS_SHIRTS_BOYS_NEW,Sleeveless tops,Kids/Boys clothing/Tops & t-shirts/Sleeveless tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1662,TSHIRTS_BOYS_NEW,T-shirts,Kids/Boys clothing/Tops & t-shirts/T-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1200,BOYS_PANTS,"Trousers, shorts & dungarees","Kids/Boys clothing/Trousers, shorts & dungarees",3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+2082,BOYS_PANTS_HAREM,Harem trousers,"Kids/Boys clothing/Trousers, shorts & dungarees/Harem pants",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,32,0
+1696,JEANS_BOYS_NEW,Jeans,"Kids/Boys clothing/Trousers, shorts & dungarees/Jeans",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1702,OVERALLS_ROMPERS_BOYS_NEW,Jumpsuits & dungarees,"Kids/Boys clothing/Trousers, shorts & dungarees/Jumpsuits & dungarees",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1701,BOYS_LEGGINGS_NEW,Leggings,"Kids/Boys clothing/Trousers, shorts & dungarees/Leggings",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1870,BOYS_OTH_PANTS,"Other trousers, shorts & dungarees","Kids/Boys clothing/Trousers, shorts & dungarees/Other trousers, shorts & dungarees",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,32,0
+1201,BOYS_SHORTS,Shorts & cropped trousers,"Kids/Boys clothing/Trousers, shorts & dungarees/Shorts & cropped trousers",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,35,32,0
+1697,SKINNYPANTS_BOYS_NEW,Skinny trousers,"Kids/Boys clothing/Trousers, shorts & dungarees/Skinny trousers",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1698,BELLBOTTOMPANTS_BOYS_NEW,Wide-leg trousers,"Kids/Boys clothing/Trousers, shorts & dungarees/Wide-leg trousers",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1203,BOYS_SWIMWEAR,Underwear & socks,Kids/Boys clothing/Underwear & socks,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,32,0
+1871,OTHER_UNDER_BOYS,Other underwear & socks,Kids/Boys clothing/Underwear & socks/Other underwear & socks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,32,0
+1757,SOCKS_BOYS_NEW,Socks,Kids/Boys clothing/Underwear & socks/Socks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,71,0
+1758,TIGHTS_BOYS_NEW,Tights & leggings,Kids/Boys clothing/Underwear & socks/Tights & leggings,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1759,PANTIES_BOYS_NEW,Underwear,Kids/Boys clothing/Underwear & socks/Underwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1195,GIRLS_NEW,Girls clothing,Kids/Girls clothing,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1574,ACCESSORIES_GIRLS_NEW,Accessories,Kids/Girls clothing/Accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,55,32,0
+1581,BELTS_GIRLS_NEW,Belts,Kids/Girls clothing/Accessories/Belts,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,70,0
+1577,HATS_GIRLS_NEW,Caps & hats,Kids/Girls clothing/Accessories/Caps & hats,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,43,0
+1578,GLOVES_GIRLS_NEW,Gloves,Kids/Girls clothing/Accessories/Gloves,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1582,HAIR_ACC_GIRLS_NEW,Hairbands & hairclips,Kids/Girls clothing/Accessories/Hairbands & hairclips,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1580,SCARVES_GIRLS_NEW,Scarves & shawls,Kids/Girls clothing/Accessories/Scarves & shawls,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1584,KIDS_WALLETS_NEW,Wallets & purses,Kids/Girls clothing/Accessories/Wallets & purses,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+1253,GIRLS_SPORTS,Activewear,Kids/Girls clothing/Activewear,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,32,0
+1258,GIRLS_BAGS,Bags & backpacks,Kids/Girls clothing/Bags & backpacks,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,32,0
+1510,CLOTHING_PACKAGES_NEW,Clothing bundles,Kids/Girls clothing/Clothing bundles,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,85,32,0
+1604,TWINS_GIRLS_NEW,Clothing for twins,Kids/Girls clothing/Clothing for twins,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,32,0
+1247,GIRLS_DRESSES,Dresses,Kids/Girls clothing/Dresses,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+1553,LONGDRESSES_GIRLS_NEW,Long dresses,Kids/Girls clothing/Dresses/Long dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1554,SHORTDRESSES_GIRLS_NEW,Short dresses,Kids/Girls clothing/Dresses/Short dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1606,COSTUMES_GIRLS_NEW,Fancy dress & costumes,Kids/Girls clothing/Fancy dress & costumes,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,95,32,0
+2080,THEMED_COSTUMES_NEW,Formal wear & special occasion clothing,Kids/Girls clothing/Formal wear & special occasion clothing,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,97,32,0
+1246,GIRLS_SWEATERS,Jumpers & hoodies,Kids/Girls clothing/Jumpers & hoodies,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1549,BOLEROS_GIRLS_NEW,Boleros,Kids/Girls clothing/Jumpers & hoodies/Boleros,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1550,HOODIES_GIRLS_NEW,Hoodies & sweatshirts,Kids/Girls clothing/Jumpers & hoodies/Hoodies & sweatshirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1542,SWEATERS_GIRLS_NEW,Jumpers,Kids/Girls clothing/Jumpers & hoodies/Jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1877,OTHER_SWEATERS_GIRLS,Other jumpers & hoodies,Kids/Girls clothing/Jumpers & hoodies/Other jumpers & hoodies,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,32,0
+1551,VESTS_GIRLS_NEW,Sleeveless jumpers,Kids/Girls clothing/Jumpers & hoodies/Sleeveless jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1544,TURLENECK_GRILS_NEW,Turtleneck jumpers,Kids/Girls clothing/Jumpers & hoodies/Turtleneck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1543,VNECK_SWEATERS_GIRLS_NEW,V-neck jumpers,Kids/Girls clothing/Jumpers & hoodies/V-neck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6,32,0
+1548,ZIPP_SWEATERS_GIRLS_NEW,Zip-up jumpers,Kids/Girls clothing/Jumpers & hoodies/Zip-up jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,32,0
+1254,GIRLS_OTHER,Other girls' clothing,Kids/Girls clothing/Other girls' clothing,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,32,0
+1244,GIRLS_COATS,Outerwear,Kids/Girls clothing/Outerwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,32,0
+1519,COATS_GIRLS_NEW,Coats,Kids/Girls clothing/Outerwear/Coats,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2540,GIRLS_DUFFLE_COATS,Duffle coats,Kids/Girls clothing/Outerwear/Coats/Duffle coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2541,GIRLS_PARKAS,Parkas,Kids/Girls clothing/Outerwear/Coats/Parkas,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2542,GIRLS_PEACOATS,Peacoats,Kids/Girls clothing/Outerwear/Coats/Peacoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2543,GIRLS_TRENCH_COATS,Trench coats,Kids/Girls clothing/Outerwear/Coats/Trench coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+1518,OUT_VESTS_GIRLS_NEW,Gilets & body warmers,Kids/Girls clothing/Outerwear/Gilets & body warmers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+1521,JACKETS_GIRLS_NEW,Jackets,Kids/Girls clothing/Outerwear/Jackets,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2544,GIRLS_BLAZERS_3,Blazers,Kids/Girls clothing/Outerwear/Jackets/Blazers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2545,GIRLS_BOMBER_JACKETS,Bomber jackets,Kids/Girls clothing/Outerwear/Jackets/Bomber jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2546,GIRLS_DENIM_JACKETS,Denim jackets,Kids/Girls clothing/Outerwear/Jackets/Denim jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2547,GIRLS_FLEECE_JACKETS,Fleece jackets,Kids/Girls clothing/Outerwear/Jackets/Fleece jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+2548,GIRLS_PUFFER_JACKETS,Puffer jackets,Kids/Girls clothing/Outerwear/Jackets/Puffer jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,32,0
+2549,GIRLS_WINDBREAKERS,Windbreakers,Kids/Girls clothing/Outerwear/Jackets/Windbreakers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,32,0
+2554,GIRLS_RAIN_GEAR,Rain gear,Kids/Girls clothing/Outerwear/Rain gear,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+2556,GIRLS_PONCHOS_3,Ponchos,Kids/Girls clothing/Outerwear/Rain gear/Ponchos,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2557,GIRLS_RAIN_SUITS,Rain suits & sets,Kids/Girls clothing/Outerwear/Rain gear/Rain suits & sets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2555,GIRLS_RAIN_PANTS,Rain trousers,Kids/Girls clothing/Outerwear/Rain gear/Rain trousers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+2558,GIRLS_RAINCOATS_3,Raincoats,Kids/Girls clothing/Outerwear/Rain gear/Raincoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,32,0
+2559,GIRLS_SNOW_GEAR,Snow gear,Kids/Girls clothing/Outerwear/Snow gear,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,32,0
+2560,GIRLS_JACKETS_COATS,Snow jackets & coats,Kids/Girls clothing/Outerwear/Snow gear/Snow jackets & coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,32,0
+2565,GIRLS_SNOW_SUITS,Snow suits & sets,Kids/Girls clothing/Outerwear/Snow gear/Snow suits & sets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+2582,GIRLS_SNOW_PANTS,Snow trousers,Kids/Girls clothing/Outerwear/Snow gear/Snow trousers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,32,0
+1255,GIRLS_SHOES,Shoes,Kids/Girls clothing/Shoes,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,31,0
+1530,BOOTS_GIRLS_NEW,Boots,Kids/Girls clothing/Shoes/Boots,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2695,GIRLS_ANKLE_BOOTS,Ankle boots,Kids/Girls clothing/Shoes/Boots/Ankle boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2696,GIRLS_MID_CALF_BOOTS,Mid-calf boots,Kids/Girls clothing/Shoes/Boots/Mid-calf boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2697,GIRLS_SNOW_BOOTS,Snow boots,Kids/Girls clothing/Shoes/Boots/Snow boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2698,GIRLS_WELLINGTON_BOOTS,Wellington boots,Kids/Girls clothing/Shoes/Boots/Wellington boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+2690,GIRLS_CLOGS_MULES,Clogs & mules,Kids/Girls clothing/Shoes/Clogs & mules,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+1526,FLAT_GIRLS_NEW,Flat shoes,Kids/Girls clothing/Shoes/Flat shoes,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+2753,GIRLS_BALLERINAS_MARY_JANES,"Ballerinas, Mary Janes & T-bar shoes","Kids/Girls clothing/Shoes/Flat shoes/Ballerinas, Mary Janes & T-bar shoes",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2701,GIRLS_ESPADRILLE_SHOES,Espadrilles,Kids/Girls clothing/Shoes/Flat shoes/Espadrilles,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2702,GIRLS_FLAT_LACE_UP_SHOES,Lace-up shoes,Kids/Girls clothing/Shoes/Flat shoes/Lace-up shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2691,GIRLS_FLIP_FLOPS_SANDALS_SLIDES,"Flip-flops, sandals & slides","Kids/Girls clothing/Shoes/Flip-flops, sandals & slides",4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,31,0
+2704,GIRLS_FLIP_FLOPS,Flip-flops,"Kids/Girls clothing/Shoes/Flip-flops, sandals & slides/Flip-flops",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2705,GIRLS_SANDALS,Sandals,"Kids/Girls clothing/Shoes/Flip-flops, sandals & slides/Sandals",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2707,GIRLS_SLIDES_2,Slides,"Kids/Girls clothing/Shoes/Flip-flops, sandals & slides/Slides",5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+1528,SHOES_OCC_GIRLS_NEW,Formal & special occasion shoes,Kids/Girls clothing/Shoes/Formal & special occasion shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,31,0
+2692,GIRLS_HEELS,Heels,Kids/Girls clothing/Shoes/Heels,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,31,0
+1534,SLIPPERS_GIRLS_NEW,Slippers,Kids/Girls clothing/Shoes/Slippers,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,31,0
+2693,GIRLS_SPORT_SHOES,Sports shoes,Kids/Girls clothing/Shoes/Sports shoes,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,31,0
+2708,GIRLS_BASKETBALL_SHOES,Basketball shoes,Kids/Girls clothing/Shoes/Sports shoes/Basketball shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2709,GIRLS_DANCE_SHOES,Dance shoes,Kids/Girls clothing/Shoes/Sports shoes/Dance shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2710,GIRLS_FOOTBALL_BOOTS,Football boots,Kids/Girls clothing/Shoes/Sports shoes/Football boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+2711,GIRLS_HIKING_BOOTS_SHOES,Hiking boots & shoes,Kids/Girls clothing/Shoes/Sports shoes/Hiking boots & shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,31,0
+2713,GIRLS_ROLLER_SKATES_BLADES,Roller skates & inline skates,Kids/Girls clothing/Shoes/Sports shoes/Roller skates & inline skates,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,31,0
+2714,GIRLS_RUNNING_SHOES,Running shoes,Kids/Girls clothing/Shoes/Sports shoes/Running shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,31,0
+2715,GIRLS_SKI_BOOTS,Ski boots,Kids/Girls clothing/Shoes/Sports shoes/Ski boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,31,0
+2716,GIRLS_SNOWBOARD_BOOTS,Snowboard boots,Kids/Girls clothing/Shoes/Sports shoes/Snowboard boots,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,31,0
+2717,GIRLS_SWIMMING_WATER_SHOES,Swimming & water shoes,Kids/Girls clothing/Shoes/Sports shoes/Swimming & water shoes,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,31,0
+1533,SNEAKERS_GIRLS_NEW,Trainers,Kids/Girls clothing/Shoes/Trainers,4,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,31,0
+2718,GIRLS_HOOK_LOOP_TRAINERS,Hook-and-loop trainers,Kids/Girls clothing/Shoes/Trainers/Hook-and-loop trainers,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,31,0
+2719,GIRLS_LACE_UP_TRAINERS,Lace-up trainers,Kids/Girls clothing/Shoes/Trainers/Lace-up trainers,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,31,0
+2720,GIRLS_SLIP_ON_TRAINERS,Slip-on trainers,Kids/Girls clothing/Shoes/Trainers/Slip-on trainers,5,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,31,0
+1248,GIRLS_SKIRTS,Skirts,Kids/Girls clothing/Skirts,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,35,32,0
+1594,SLEEPWEAR_GIRLS_NEW,Sleepwear & nightwear,Kids/Girls clothing/Sleepwear & nightwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,75,32,0
+1598,NIGHTGOWNS_GIRLS_NEW,Nighties,Kids/Girls clothing/Sleepwear & nightwear/Nighties,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1596,ONEPIECE_PAJAMAS_GIRLS,One-piece pajamas,Kids/Girls clothing/Sleepwear & nightwear/One-piece pyjamas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1597,TWOPIECE_PAJAMAS_GIRLS_NEW,Two-piece pajamas,Kids/Girls clothing/Sleepwear & nightwear/Two-piece pyjamas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1251,GIRLS_SWIM,Swimwear,Kids/Girls clothing/Swimwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,65,32,0
+1593,BATHROBES_GIRLS_NEW,Bathrobes,Kids/Girls clothing/Swimwear/Bathrobes,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1592,BIKINIS_GIRLS_NEW,Bikinis & tankinis,Kids/Girls clothing/Swimwear/Bikinis & tankinis,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1590,SWIMSUITS_GIRLS_NEW,One-piece swimsuits,Kids/Girls clothing/Swimwear/One-piece swimsuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1245,GIRLS_SHIRTS,Tops & t-shirts,Kids/Girls clothing/Tops & t-shirts,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1539,LOGSLEEVE_SHIRTS_GIRLS_NEW,Long-sleeved tops,Kids/Girls clothing/Tops & t-shirts/Long-sleeved tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1878,OTHER_TOPS_GIRLS,Other tops & t-shirts,Kids/Girls clothing/Tops & t-shirts/Other tops & t-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,32,0
+1536,POLOSHIRTS_GIRLS_NEW,Polo shirts,Kids/Girls clothing/Tops & t-shirts/Polo shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1537,SHIRTS_GIRLS_NEW,Shirts,Kids/Girls clothing/Tops & t-shirts/Shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1538,SHORTSLEEVE_SHIRTS_GIRLS_NEW,Short-sleeved tops,Kids/Girls clothing/Tops & t-shirts/Short-sleeved tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,32,0
+1540,SLEEVELESS_SHIRTS_GIRLS_NEW,Sleeveless tops,Kids/Girls clothing/Tops & t-shirts/Sleeveless tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1535,TOPS_GIRLS_NEW,T-shirts,Kids/Girls clothing/Tops & t-shirts/T-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1541,TUNICS_GIRLS_NEW,Tunics,Kids/Girls clothing/Tops & t-shirts/Tunics,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+1249,GIRLS_PANTS,"Trousers, shorts & dungarees","Kids/Girls clothing/Trousers, shorts & dungarees",3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,32,0
+2079,HAREM_GIRLS_NEW,Harem trousers,"Kids/Girls clothing/Trousers, shorts & dungarees/Harem pants",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,45,32,0
+1559,JEANS_GIRLS_NEW,Jeans,"Kids/Girls clothing/Trousers, shorts & dungarees/Jeans",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+1568,OVERALLS_ROMPERS_GIRLS_NEW,Jumpsuits & dungarees,"Kids/Girls clothing/Trousers, shorts & dungarees/Jumpsuits & dungarees",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,25,32,0
+1565,LEGGINGS_GIRLS_NEW,Leggings,"Kids/Girls clothing/Trousers, shorts & dungarees/Leggings",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+1880,OTHER_PANTS_GIRLS,"Other trousers, shorts & dungarees","Kids/Girls clothing/Trousers, shorts & dungarees/Other trousers, shorts & dungarees",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,32,0
+1250,GIRLS_SHORTS,Shorts & cropped trousers,"Kids/Girls clothing/Trousers, shorts & dungarees/Shorts & cropped trousers",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,45,32,0
+1560,SKINNYPANTS_GIRLS_NEW,Skinny trousers,"Kids/Girls clothing/Trousers, shorts & dungarees/Skinny trousers",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1562,BELLBOTTOMPANTS_GIRLS_NEW,Wide-leg trousers,"Kids/Girls clothing/Trousers, shorts & dungarees/Wide-leg trousers",4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1252,GIRLS_UNDERW,Underwear & socks,Kids/Girls clothing/Underwear & socks,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,32,0
+1872,OTHER_UNDERWEAR_GIRLS,Other underwear & socks,Kids/Girls clothing/Underwear & socks/Other underwear & socks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,32,0
+1600,SOCKS_GIRLS_NEW,Socks,Kids/Girls clothing/Underwear & socks/Socks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,71,0
+1601,TIGHTS_GIRLS_NEW,Tights & leggings,Kids/Girls clothing/Underwear & socks/Tights & leggings,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+1602,PANTIES_GIRLS_NEW,Underwear,Kids/Girls clothing/Underwear & socks/Underwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+1501,BOOKS_AND_SCHOOL_NEW,School supplies,Kids/School supplies,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,750,32,0
+3269,KID_LUNCHBOX_BAGS,Lunch boxes & bags,Kids/School supplies/Lunch boxes & bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
+1508,SCHOOL_BAGS_NEW,School bags,Kids/School supplies/School bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,32,0
+3315,KID_SMOCKS,Aprons & smocks,Kids/Toys/Arts & crafts/Aprons & smocks,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+3323,KID_STICKER_STATIONERY,Stickers & stationery,Kids/Toys/Arts & crafts/Stickers & stationery,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,32,0
+1767,CONSTRUCTION_NEW,Construction toys,Kids/Toys/Blocks & building toys,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+1731,DOLLS_NEW,Dolls,Kids/Toys/Dolls & accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,41,32,0
+3324,DOLL_CLOTHES_ACC,Doll clothes & accessories,Kids/Toys/Dolls & accessories/Doll clothes & accessories,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+3327,DOLLS,Dolls,Kids/Toys/Dolls & accessories/Dolls,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,32,0
+3330,DRESS_UP,Dress up,Kids/Toys/Dress up & pretend play/Dress up,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+3332,TOY_FOOD_COOKWARE,"Toy food, cookware, & dishes","Kids/Toys/Dress up & pretend play/Toy food, cookware, & dishes",4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+3335,TOY_TOOLS,Toy tools,Kids/Toys/Dress up & pretend play/Toy tools,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,32,0
+3354,FLASH_CARDS,Flash cards,Kids/Toys/Educational toys/Flash cards,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+3356,PHONICS_TOYS,Phonics toys,Kids/Toys/Educational toys/Phonics toys,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+3337,FIDGET_TOYS,Fidget toys,Kids/Toys/Novelty & fidget toys/Fidget toys,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,32,0
+3339,JUGGLING_SET,Juggling sets,Kids/Toys/Novelty & fidget toys/Juggling sets,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+3342,YOYOS,Yo-yos,Kids/Toys/Novelty & fidget toys/Yo-yos,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,32,0
+3374,SPORTS_TOYS,Sports toys,Kids/Toys/Outdoor & sports toys/Sports toys,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,32,0
+1764,STUFFED_ANIMALS_NEW,Soft toys & stuffed animals,Kids/Toys/Soft toys & stuffed animals,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,151,32,0
+3471,TOY_PLANES,Airplanes,"Kids/Toys/Toy cars, trains & other vehicles/Aeroplanes",4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,32,0
+3468,TOY_CARS,Cars,"Kids/Toys/Toy cars, trains & other vehicles/Cars",4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,32,0
+3470,TOY_TRAINS,Trains,"Kids/Toys/Toy cars, trains & other vehicles/Trains",4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,150,32,0
+3469,TRUCKS,Trucks,"Kids/Toys/Toy cars, trains & other vehicles/Trucks",4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,32,0
+1730,ACTION_FIGURES_NEW,Action figures,Kids/Toys/Toy figures & accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,32,0
+3311,TOY_FIGURE_ACCESSORIES,Accessories,Kids/Toys/Toy figures & accessories/Accessories,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,32,0
+3312,TOY_FIGURES,Figures,Kids/Toys/Toy figures & accessories/Figures,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,32,0
+3313,TOY_FIGURE_PLAYSET,Playsets,Kids/Toys/Toy figures & accessories/Playsets,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,32,0
+5,MENS,Men,Men,1,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,14,0
+82,MEN_ACCESSORIES,Accessories,Men/Accessories,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,14,0
+94,BAGS,Bags & backpacks,Men/Accessories/Bags & backpacks,3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,14,0
+246,MEN_ACC_BAG_BACKPACKS,Backpacks,Men/Accessories/Bags & backpacks/Backpacks,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,14,0
+2963,MEN_BRIEFCASES,Briefcases,Men/Accessories/Bags & backpacks/Briefcases,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+1799,MEN_ACC_BUMBAGS,Bum bags,Men/Accessories/Bags & backpacks/Bum bags,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,14,0
+2962,MEN_GARMENT_BAGS,Garment bags,Men/Accessories/Bags & backpacks/Garment bags,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+2961,MEN_GYM_BAGS,Gym bags,Men/Accessories/Bags & backpacks/Gym bags,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,,0
+1798,MEN_HOLDALLS,Holdalls & duffel bags,Men/Accessories/Bags & backpacks/Holdalls & duffel bags,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,14,0
+1862,MEN_LUGGAGE,Luggage & suitcases,Men/Accessories/Bags & backpacks/Luggage & suitcases,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,Light Bulky,,,,,,,,7000,14,2
+1797,MEN_ACC_SATCHELS,Satchels & messenger bags,Men/Accessories/Bags & backpacks/Satchels & messenger bags,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,14,0
+247,MEN_ACC_BAG_SHOULDER_BAGS,Shoulder bags,Men/Accessories/Bags & backpacks/Shoulder bags,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,14,0
+248,WALLETS,Wallets,Men/Accessories/Bags & backpacks/Wallets,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,14,0
+2960,MEN_BANDANAS_HEADSCARVES,Bandanas & headscarves,Men/Accessories/Bandanas & headscarves,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+96,MEN_ACC_BELTS,Belts,Men/Accessories/Belts,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,63,0
+2959,MEN_BRACES,Braces,Men/Accessories/Braces,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+91,MEN_ACC_GLOVES,Gloves,Men/Accessories/Gloves,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,61,0
+2958,MEN_HANDKERCHIEFS,Handkerchiefs,Men/Accessories/Handkerchiefs,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+86,HATS_CAPS,Hats & caps,Men/Accessories/Hats & caps,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,,0
+2965,MEN_BALACLAVAS,Balaclavas,Men/Accessories/Hats & caps/Balaclavas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,60,0
+2964,MEN_BEANIES,Beanies,Men/Accessories/Hats & caps/Beanies,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,60,0
+287,MEN_ACC_HAT_CAPS,Caps,Men/Accessories/Hats & caps/Caps,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,60,0
+288,MEN_ACC_HAT_HATS,Hats,Men/Accessories/Hats & caps/Hats,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,60,0
+2957,MEN_POCKET_SQUARES,Pocket squares,Men/Accessories/Pocket squares,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,,0
+87,SCARVES_SHAWLS,Scarves & shawls,Men/Accessories/Scarves & shawls,3,FALSE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,14,0
+98,MEN_ACC_SUNGLASSES,Sunglasses,Men/Accessories/Sunglasses,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,12000,14,0
+2956,MEN_TIES_BOWTIES,Ties & bow ties,Men/Accessories/Ties & bow ties,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,14000,,0
+2050,MEN_CLOTHING,Clothing,Men/Clothing,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,14,0
+30,SPORTSWEAR,Activewear,Men/Clothing/Activewear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,120,14,0
+581,MEN_SPO_OUTERWEAR,Outerwear,Men/Clothing/Activewear/Outerwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,14,0
+585,MEN_SPO_PULLOVERS_SWEATERS,Pullovers & sweaters,Men/Clothing/Activewear/Pullovers & sweaters,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,14,0
+586,MEN_SPO_SHORTS,Shorts,Men/Clothing/Activewear/Shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,14,0
+1474,SPORT_ACCESS_GLOVES_MEN,Gloves,Men/Clothing/Activewear/Sports accessories/Gloves,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,61,0
+1473,SPORT_ACCESS_HATS_MEN,Hats,Men/Clothing/Activewear/Sports accessories/Hats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,60,0
+1470,SPORT_ACCESS_SCARVES_MEN,Scarves,Men/Clothing/Activewear/Sports accessories/Scarves,5,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,14,0
+3050,SPORT_ACCESS_WRISTBANDS_MEN,Wristbands,Men/Clothing/Activewear/Sports accessories/Wristbands,5,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+3267,MEN_JERSEYS,Team shirts & jerseys,Men/Clothing/Activewear/Team shirts & jerseys,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,55,14,0
+584,MEN_SPO_TOPS_T_SHIRTS,Tops & t-shirts,Men/Clothing/Activewear/Tops & t-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,14,0
+582,MEN_SPO_TRAINING_COSTUMES,Tracksuits,Men/Clothing/Activewear/Tracksuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,14,0
+583,MEN_SPO_TROUSERS,Trousers,Men/Clothing/Activewear/Trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,14,0
+92,SPECIALISED_CLOTHING_COSTUMES,Costumes & special outfits,Men/Clothing/Costumes & special outfits,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,130,14,0
+257,MEN_TRO_JEANS,Jeans,Men/Clothing/Jeans,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,,0
+1816,MEN_RIPPED_JEANS,Ripped jeans,Men/Clothing/Jeans/Ripped jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,77,0
+1817,MEN_SKINNY_JEANS,Skinny jeans,Men/Clothing/Jeans/Skinny jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,77,0
+1818,MEN_SLIMFIT_JEANS,Slim fit jeans,Men/Clothing/Jeans/Slim fit jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,77,0
+1819,MEN_STRAIGHTFIT_JEANS,Straight fit jeans,Men/Clothing/Jeans/Straight fit jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,77,0
+79,MEN_PULLOVERS_SWEATERS,Jumpers & sweaters,Men/Clothing/Jumpers & sweaters,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,14,0
+266,MEN_PUL_CARDIGANS,Cardigans,Men/Clothing/Jumpers & sweaters/Cardigans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,14,0
+1815,MEN_KNITTED_SWEATER,Chunky-knit jumpers,Men/Clothing/Jumpers & sweaters/Chunky-knit jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,14,0
+1813,MEN_CREWNECK_JUMPER,Crew neck jumpers,Men/Clothing/Jumpers & sweaters/Crew neck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,14,0
+267,MEN_PUL_HOODIES_PULLOVERS,Hoodies & sweaters,Men/Clothing/Jumpers & sweaters/Hoodies & sweaters,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,14,0
+1811,MEN_SWEATERS,Jumpers,Men/Clothing/Jumpers & sweaters/Jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,14,0
+1814,MEN_LONG_SWEATER,Long jumpers,Men/Clothing/Jumpers & sweaters/Long jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,14,0
+268,MEN_PUL_OTHER,Other jumpers & sweaters,Men/Clothing/Jumpers & sweaters/Other jumpers & sweaters,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,14,0
+1825,OUTDOOR_VEST,Sleeveless jumpers,Men/Clothing/Jumpers & sweaters/Sleeveless jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,14,0
+265,MEN_PUL_TURTLENECK_SWEATERS,Turtleneck jumpers,Men/Clothing/Jumpers & sweaters/Turtleneck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,14,0
+264,MEN_PUL_V_NECK_SWEATERS,V-neck jumpers,Men/Clothing/Jumpers & sweaters/V-neck jumpers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,14,0
+1812,MEN_ZIPHOODIES,Zip-through hoodies & sweaters,Men/Clothing/Jumpers & sweaters/Zip-through hoodies & sweaters,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,14,0
+83,MEN_OTHER,Other men's clothing,Men/Clothing/Other men's clothing,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1500,14,0
+1206,MEN_OUTERWEAR_NEW,Outerwear,Men/Clothing/Outerwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,14,0
+2051,MEN_COATS,Coats,Men/Clothing/Outerwear/Coats,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,14,0
+1225,MEN_DUFFLE,Duffle coats,Men/Clothing/Outerwear/Coats/Duffle coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,14,0
+2533,MEN_OVERCOATS_LONGCOATS,Overcoats & long coats,Men/Clothing/Outerwear/Coats/Overcoats & long coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,14,0
+1227,MEN_PARKAS,Parkas,Men/Clothing/Outerwear/Coats/Parkas,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,14,0
+1861,MEN_PEA_COATS,Peacoats,Men/Clothing/Outerwear/Coats/Peacoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,14,0
+1859,MEN_RAINCOAT,Raincoats,Men/Clothing/Outerwear/Coats/Raincoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,14,0
+1230,MEN_TRENCH,Trench coats,Men/Clothing/Outerwear/Coats/Trench coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,14,0
+2553,MEN_OUTERWEAR_VESTS,Gilets & body warmers,Men/Clothing/Outerwear/Gilets & body warmers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,14,0
+2052,MEN_JACKETS,Jackets,Men/Clothing/Outerwear/Jackets,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,14,0
+2534,MEN_BIKER_RACER_JACKETS,Biker & racer jackets,Men/Clothing/Outerwear/Jackets/Biker & racer jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,14,0
+1223,MEN_BOMBER,Bomber jackets,Men/Clothing/Outerwear/Jackets/Bomber jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,14,0
+1224,MEN_DENIM,Denim jackets,Men/Clothing/Outerwear/Jackets/Denim jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,14,0
+2535,MEN_MILITARY_UTILITY_JACKETS,Field & utility jackets,Men/Clothing/Outerwear/Jackets/Field & utility jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,14,0
+1858,MEN_FLEECE_JACKETS,Fleece jackets,Men/Clothing/Outerwear/Jackets/Fleece jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,14,0
+1226,MEN_HARRINGT,Harrington jackets,Men/Clothing/Outerwear/Jackets/Harrington jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,14,0
+2536,MEN_PUFFER_JACKETS,Puffer jackets,Men/Clothing/Outerwear/Jackets/Puffer jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,14,0
+2537,MEN_QUILTED_JACKETS,Quilted jackets,Men/Clothing/Outerwear/Jackets/Quilted jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,14,0
+2538,MEN_SHACKETS,Shackets,Men/Clothing/Outerwear/Jackets/Shackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,14,0
+2539,MEN_SKI_SNOWBOARD_JACKETS,Ski & snowboard jackets,Men/Clothing/Outerwear/Jackets/Ski & snowboard jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,14,0
+2550,MEN_VARSITY_JACKETS,Varsity jackets,Men/Clothing/Outerwear/Jackets/Varsity jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,14,0
+2551,MEN_WINDBREAKERS,Windbreakers,Men/Clothing/Outerwear/Jackets/Windbreakers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,12000,14,0
+2552,MEN_PONCHOS,Ponchos,Men/Clothing/Outerwear/Ponchos,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,14,0
+80,SHORTS_CAPRI_PANTS,Shorts,Men/Clothing/Shorts,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,,0
+1822,MEN_CARGO_SHORTS,Cargo shorts,Men/Clothing/Shorts/Cargo shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,77,0
+1823,MEN_CHINO_SHORTS,Chino shorts,Men/Clothing/Shorts/Chino shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,77,0
+1824,MEN_DENIM_SHORTS,Denim shorts,Men/Clothing/Shorts/Denim shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,77,0
+272,MEN_SHO_OTHER,Other shorts,Men/Clothing/Shorts/Other shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,77,0
+2910,MEN_SLEEPWEAR,Sleepwear,Men/Clothing/Sleepwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,105,14,0
+2911,MEN_ONE_PIECE_PYJAMAS,One-piece pyjamas,Men/Clothing/Sleepwear/One-piece pyjamas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,14,0
+2912,MEN_PYJAMA_BOTTOMS,Pyjama bottoms,Men/Clothing/Sleepwear/Pyjama bottoms,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,14,0
+2913,MEN_PYJAMA_SETS,Pyjama sets,Men/Clothing/Sleepwear/Pyjama sets,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,14,0
+2914,MEN_PYJAMA_TOPS,Pyjama tops,Men/Clothing/Sleepwear/Pyjama tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,14,0
+85,UNDERWEAR,Socks & underwear,Men/Clothing/Socks & underwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,14,0
+1830,MEN_ROBES,Dressing gowns,Men/Clothing/Socks & underwear/Dressing gowns,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,14,0
+1867,OTHER_MEN_UNDERWEAR,Other socks & underwear,Men/Clothing/Socks & underwear/Other socks & underwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,14,0
+1828,MEN_SOCKS,Socks,Men/Clothing/Socks & underwear/Socks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,73,0
+1829,MEN_UNDERWEAR,Underwear,Men/Clothing/Socks & underwear/Underwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,14,0
+32,SUITS_BLAZERS,Suits & blazers,Men/Clothing/Suits & blazers,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,,0
+1866,SUITS_BLAZERS_OTHER,Other suits & blazers,Men/Clothing/Suits & blazers/Other suits & blazers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,75,0
+1786,BLAZERS_MEN,Suit jackets & blazers,Men/Clothing/Suits & blazers/Suit jackets & blazers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,75,0
+1789,SUIT_SET_MEN,Suit sets,Men/Clothing/Suits & blazers/Suit sets,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,75,0
+1787,SUIT_PANTS,Suit trousers,Men/Clothing/Suits & blazers/Suit trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,77,0
+1788,SUIT_WAISTCOAT,Waistcoats,Men/Clothing/Suits & blazers/Waistcoats,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,75,0
+1790,WEDDING_SUIT,Wedding suits,Men/Clothing/Suits & blazers/Wedding suits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,75,0
+84,MEN_SWIMWEAR,Swimwear,Men/Clothing/Swimwear,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,110,14,0
+76,MEN_TOPS_T_SHIRTS,Tops & t-shirts,Men/Clothing/Tops & t-shirts,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,14,0
+536,MEN_TOP_SHIRTS,Shirts,Men/Clothing/Tops & t-shirts/Shirts,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,74,0
+1801,CHECKED_SHIRTS,Checked shirts,Men/Clothing/Tops & t-shirts/Shirts/Checked shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,74,0
+1802,DENIM_SHIRTS,Denim shirts,Men/Clothing/Tops & t-shirts/Shirts/Denim shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,74,0
+1865,MEN_SHIRTS_OTHER,Other shirts,Men/Clothing/Tops & t-shirts/Shirts/Other shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,74,0
+1803,PLAIN_SHIRTS,Plain shirts,Men/Clothing/Tops & t-shirts/Shirts/Plain shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,74,0
+1804,PRINTED_SHIRTS,Print shirts,Men/Clothing/Tops & t-shirts/Shirts/Print shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,74,0
+1805,STRIPPED_SHIRTS,Striped shirts,Men/Clothing/Tops & t-shirts/Shirts/Striped shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,74,0
+77,MEN_TOP_T_SHIRTS,T-shirts,Men/Clothing/Tops & t-shirts/T-shirts,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,14,0
+1810,LONG_SL_TSHIRTS,Long-sleeved t-shirts,Men/Clothing/Tops & t-shirts/T-shirts/Long-sleeved t-shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,14,0
+1868,OTHER_MEN_TSHIRTS,Other t-shirts,Men/Clothing/Tops & t-shirts/T-shirts/Other t-shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,14,0
+1806,PLAIN_TSHIRTS,Plain t-shirts,Men/Clothing/Tops & t-shirts/T-shirts/Plain t-shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,14,0
+1809,POLO_SHIRTS,Polo shirts,Men/Clothing/Tops & t-shirts/T-shirts/Polo shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,14,0
+1807,PRINTED_TSHIRTS,Print t-shirts,Men/Clothing/Tops & t-shirts/T-shirts/Print t-shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,14,0
+1808,STRIPPED_TSHIRTS,Striped t-shirts,Men/Clothing/Tops & t-shirts/T-shirts/Striped t-shirts,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,14,0
+560,MEN_TOP_VESTS,Vests & sleeveless t-shirts,Men/Clothing/Tops & t-shirts/Vests & sleeveless t-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,14,0
+34,MEN_TROUSERS,Trousers,Men/Clothing/Trousers,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,,0
+1820,MEN_CHINOS,Chinos,Men/Clothing/Trousers/Chinos,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,77,0
+271,MEN_SHO_CAPRI_TROUSERS,Cropped trousers,Men/Clothing/Trousers/Cropped trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,77,0
+1821,MEN_JOGGERS,Joggers,Men/Clothing/Trousers/Joggers & sweatpants,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,77,0
+263,MEN_TRO_OTHER,Other trousers,Men/Clothing/Trousers/Other trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,77,0
+259,MEN_TRO_SKINNY_TROUSERS,Skinny trousers,Men/Clothing/Trousers/Skinny trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,77,0
+261,MEN_TRO_TAILORED_TROUSERS,Tailored trousers,Men/Clothing/Trousers/Tailored trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,77,0
+260,MEN_TRO_WIDE_LEGGED_TROUSERS,Wide-legged trousers,Men/Clothing/Trousers/Wide-legged trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,77,0
+1231,MEN_SHOES_NEW,Shoes,Men/Shoes,2,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,38,0
+2656,MEN_BOAT_LOAFERS_MOCCASINS,"Boat shoes, loafers & moccasins","Men/Shoes/Boat shoes, loafers & moccasins",3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,38,0
+1233,MEN_BOOTS,Boots,Men/Shoes/Boots,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,38,0
+2661,MEN_CHELSEA_SLIP_ON_BOOTS,Chelsea & slip-on boots,Men/Shoes/Boots/Chelsea & slip-on boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,38,0
+2662,MEN_DESERT_LACE_UP_BOOTS,Desert & lace-up boots,Men/Shoes/Boots/Desert & lace-up boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,38,0
+2663,MEN_SNOW_BOOTS,Snow boots,Men/Shoes/Boots/Snow boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,38,0
+1795,MEN_WELLINGTON,Wellington boots,Men/Shoes/Boots/Wellington boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,38,0
+2664,MEN_WORK_BOOTS,Work boots,Men/Shoes/Boots/Work boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,38,0
+2970,MEN_CLOGS_MULES_NEW,Clogs & mules,Men/Shoes/Clogs & mules,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,38,0
+2657,MEN_ESPADRILLES,Espadrilles,Men/Shoes/Espadrilles,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,38,0
+2969,MEN_FLIPFLOPS_SLIDES,Flip-flops & slides,Men/Shoes/Flip-flops & slides,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,38,0
+1238,MEN_FORMAL,Formal shoes,Men/Shoes/Formal shoes,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,38,0
+2968,MEN_SANDALS_NEW,Sandals,Men/Shoes/Sandals,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,38,0
+2659,MEN_SLIPPERS_2,Slippers,Men/Shoes/Slippers,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,38,0
+1452,SPORT_SHOES_MEN,Sports shoes,Men/Shoes/Sports shoes,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,38,0
+2672,MEN_BASKETBALL_SHOES,Basketball shoes,Men/Shoes/Sports shoes/Basketball shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,38,0
+2673,MEN_CLIMBING_BOULDERING_SHOES,Climbing & bouldering shoes,Men/Shoes/Sports shoes/Climbing & bouldering shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,38,0
+2674,MEN_CYCLING_SHOES,Cycling shoes,Men/Shoes/Sports shoes/Cycling shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,38,0
+2675,MEN_DANCE_SHOES,Dance shoes,Men/Shoes/Sports shoes/Dance shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,38,0
+2676,MEN_FOOTBALL_BOOTS,Football boots,Men/Shoes/Sports shoes/Football boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,38,0
+2677,MEN_GOLF_SHOES,Golf shoes,Men/Shoes/Sports shoes/Golf shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,38,0
+2678,MEN_HIKING_BOOTS_SHOES,Hiking boots & shoes,Men/Shoes/Sports shoes/Hiking boots & shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,38,0
+2680,MEN_INDOOR_FOOTBALL_SHOES,Indoor football shoes,Men/Shoes/Sports shoes/Indoor football shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,38,0
+1467,SPORT_SHOES_INDOOR_MEN,Indoor training shoes,Men/Shoes/Sports shoes/Indoor training shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,38,0
+2682,MEN_ROLLER_SKATES_BLADES,Roller skates & inline skates,Men/Shoes/Sports shoes/Roller skates & inline skates,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,12000,38,0
+1453,SPORT_SHOES_RUNNING_MEN,Running shoes,Men/Shoes/Sports shoes/Running shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,13000,38,0
+2683,MEN_SKI_BOOTS,Ski boots,Men/Shoes/Sports shoes/Ski boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,14000,38,0
+2684,MEN_SNOWBOARD_BOOTS,Snowboard boots,Men/Shoes/Sports shoes/Snowboard boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15000,38,0
+2685,MEN_SWIMMING_WATER_SHOES,Swimming & water shoes,Men/Shoes/Sports shoes/Swimming & water shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,16000,38,0
+2686,MEN_TENNIS_SHOES,Tennis shoes,Men/Shoes/Sports shoes/Tennis shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,17000,38,0
+1242,MEN_SNEAKERS,Trainers,Men/Shoes/Trainers,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,38,0
+4332,SPORTS,Sports,Sports,1,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,300,,0
+1904,WOMEN_ROOT,Women,Women,1,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+1187,ACCESSORIES_JEWELLERY,Accessories,Women/Accessories,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+2931,WOMEN_BANDANAS_HEADSCARVES,Bandanas & headscarves,Women/Accessories/Bandanas & headscarves,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
+20,BELTS,Belts,Women/Accessories/Belts,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,64,0
+90,GLOVES,Gloves,Women/Accessories/Gloves,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,61,0
+1123,W_HAIR_ACCESSORIES,Hair accessories,Women/Accessories/Hair accessories,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,4,0
+2932,WOMEN_HANDKERCHIEFS,Handkerchiefs,Women/Accessories/Handkerchiefs,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,,0
+88,WOM_ACC_HATS_CAPS,Hats & caps,Women/Accessories/Hats & caps,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+2933,WOMEN_BALACLAVAS,Balaclavas,Women/Accessories/Hats & caps/Balaclavas,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,60,0
+2934,WOMEN_BEANIES,Beanies,Women/Accessories/Hats & caps/Beanies,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,60,0
+230,CAPS,Caps,Women/Accessories/Hats & caps/Caps,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,60,0
+2935,WOMEN_EARMUFFS,Earmuffs,Women/Accessories/Hats & caps/Earmuffs,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,60,0
+2936,WOMEN_FASCINATORS,Fascinators,Women/Accessories/Hats & caps/Fascinators,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,60,0
+231,HATS,Hats,Women/Accessories/Hats & caps/Hats,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,60,0
+234,HEADBANDS,Headbands,Women/Accessories/Hats & caps/Headbands,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,60,0
+1852,KEY_RINGS,Keyrings,Women/Accessories/Keyrings,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,4,0
+89,WOM_ACC_SCARVES_SHAWLS,Scarves & shawls,Women/Accessories/Scarves & shawls,3,FALSE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,4,0
+26,SUNGLASSES,Sunglasses,Women/Accessories/Sunglasses,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,4,0
+1851,W_ACC_UMBRELLAS,Umbrellas,Women/Accessories/Umbrellas,3,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,4,0
+19,BAGS_BACKPACKS,Bags,Women/Bags,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+157,BACKPACKS,Backpacks,Women/Bags/Backpacks,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,4,0
+2940,WOMEN_BEACH_BAGS,Beach bags,Women/Bags/Beach bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
+2941,WOMEN_BRIEFCASES,Briefcases,Women/Bags/Briefcases,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
+2942,WOMEN_BUCKET_BAGS,Bucket bags,Women/Bags/Bucket bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,,0
+1848,W_BUM_BAGS,Bum bags,Women/Bags/Bum bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,4,0
+159,CLUTCHES,Clutches,Women/Bags/Clutches,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,4,0
+2943,WOMEN_GARMENT_BAGS,Garment bags,Women/Bags/Garment bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,,0
+2944,WOMEN_GYM_BAGS,Gym bags,Women/Bags/Gym bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,,0
+156,HANDBAGS,Handbags,Women/Bags/Handbags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,4,0
+2945,WOMEN_HOBO_BAGS,Hobo bags,Women/Bags/Hobo bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,,0
+1849,W_HOLDALLS,Holdalls & duffel bags,Women/Bags/Holdalls & duffel bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,4,0
+1850,W_LUGGAGE,Luggage & suitcases,Women/Bags/Luggage & suitcases,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,Light Bulky,,,,,,,,12000,4,2
+161,MAKE_UP_BAGS,Makeup bags,Women/Bags/Makeup bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,13000,4,0
+1784,SATCHELS_NEW,Satchels & messenger bags,Women/Bags/Satchels & messenger bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,14000,4,0
+158,SHOULDER_BAGS,Shoulder bags,Women/Bags/Shoulder bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15000,4,0
+552,TOTE_BAGS,Tote bags,Women/Bags/Tote bags,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,16000,4,0
+160,PURSES,Wallets,Women/Bags/Wallets & purses,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,17000,4,0
+2939,WOMEN_WRISTLETS,Wristlets,Women/Bags/Wristlets,3,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,18000,,0
+4,WOMENS,Clothing,Women/Clothing,2,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+73,SPORTSWEAR_WOMEN,Activewear,Women/Clothing/Activewear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,130,4,0
+574,WOM_SPO_DRESSES,Dresses,Women/Clothing/Activewear/Dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+577,WOM_SPO_PULLOVERS_SWEATERS,Hoodies & sweatshirts,Women/Clothing/Activewear/Hoodies & sweatshirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+580,WOM_SPO_OTHER,Other,Women/Clothing/Activewear/Other activewear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,110,4,0
+571,WOM_SPO_OUTERWEAR,Outerwear,Women/Clothing/Activewear/Outerwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+578,WOM_SPO_SHORTS,Shorts,Women/Clothing/Activewear/Shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+575,WOM_SPO_SKIRTS,Skirts,Women/Clothing/Activewear/Skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+1444,SPORTS_GLOVES_WOMEN,Gloves,Women/Clothing/Activewear/Sports accessories/Gloves,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,61,0
+1443,SPORTS_HATS_WOMEN,Hats,Women/Clothing/Activewear/Sports accessories/Hats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,60,0
+1440,SPORTS_SCARVES_WOMEN,Scarves,Women/Clothing/Activewear/Sports accessories/Scarves,5,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,4,0
+3049,SPORTS_WRISTBANDS_WOMEN,Wristbands,Women/Clothing/Activewear/Sports accessories/Wristbands,5,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,,0
+1439,SPORTS_BRA,Bras,Women/Clothing/Activewear/Sports bras,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,53,0
+3268,WOM_JERSEYS,Team shirts & jerseys,Women/Clothing/Activewear/Team shirts & jerseys,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,75,4,0
+576,WOM_SPO_TOPS_T_SHIRTS,Tops & t-shirts,Women/Clothing/Activewear/Tops & t-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+572,TRAINING_COSTUMES,Tracksuits,Women/Clothing/Activewear/Tracksuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+573,WOM_SPO_TROUSERS,Trousers,Women/Clothing/Activewear/Trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1782,SPECIAL_OUTFITS_COSTUMES_W,Costumes & special outfits,Women/Clothing/Costumes & special outfits,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,140,4,0
+10,DRESSES,Dresses,Women/Clothing/Dresses,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1059,CASUAL_DRESSES,Casual dresses,Women/Clothing/Dresses/Casual dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+179,JEANS_DRESSES_TUNICS,Denim dresses,Women/Clothing/Dresses/Denim dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,110,4,0
+1057,FORMAL_DRESSES,Formal & work dresses,Women/Clothing/Dresses/Formal & work dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+1058,LITTLE_BLACK_DRESSES,Little black dresses,Women/Clothing/Dresses/Little black dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,4,0
+1055,MAXI_DRESSES,Maxi dresses,Women/Clothing/Dresses/Long dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1056,MIDI_DRESSES,Midi dresses,Women/Clothing/Dresses/Midi-dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+178,MINI_DRESSES,Mini Dresses,Women/Clothing/Dresses/Mini-dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+176,WOM_DRE_OTHER,Other dresses,Women/Clothing/Dresses/Other dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,120,4,0
+1774,OCCASIONAL_DRESSES,Occasional dresses,Women/Clothing/Dresses/Special-occasion dresses,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1060,BACKLESS_DRESSES,Backless dresses,Women/Clothing/Dresses/Special-occasion dresses/Backless dresses,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,4,0
+1778,EVENING_DRESSES1,Evening dresses,Women/Clothing/Dresses/Special-occasion dresses/Evening dresses,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,4,0
+1775,PARTY_DRESSES,Party & cocktail dresses,Women/Clothing/Dresses/Special-occasion dresses/Party & cocktail dresses,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+1777,PROM_DRESSES1,Prom dresses,Women/Clothing/Dresses/Special-occasion dresses/Prom dresses,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+1776,WEDDING_DRESSES1,Wedding dresses,Women/Clothing/Dresses/Special-occasion dresses/Wedding dresses,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,4,0
+1061,STRAPLESS_DRESSES,Strapless dresses,Women/Clothing/Dresses/Strapless dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+1065,SUMMER_DRESSES,Summer dresses,Women/Clothing/Dresses/Summer dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1779,WINTER_DRESSES,Winter dresses,Women/Clothing/Dresses/Winter dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+183,JEANS,Jeans,Women/Clothing/Jeans,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,65,4,0
+1839,BOYFRIEND_JEANS,Boyfriend jeans,Women/Clothing/Jeans/Boyfriend jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+1840,W_CROPPED_JEANS,Cropped jeans,Women/Clothing/Jeans/Cropped jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+1841,FLARED_JEANS,Flared jeans,Women/Clothing/Jeans/Flared jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1842,W_HIGH_WAIST_JEANS,High-waisted jeans,Women/Clothing/Jeans/High waisted jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1864,JEANS_OTHER,Other,Women/Clothing/Jeans/Other,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,4,0
+1843,W_RIPPED_JEANS,Ripped jeans,Women/Clothing/Jeans/Ripped jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1844,W_SKINNY_JEANS,Skinny jeans,Women/Clothing/Jeans/Skinny jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+1845,W_STRAIGHT_JEANS,Straight jeans,Women/Clothing/Jeans/Straight jeans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+13,PULLOVERS_SWEATERS,Jumpers & sweaters,Women/Clothing/Jumpers & sweaters,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+195,BOLERO,Boleros,Women/Clothing/Jumpers & sweaters/Boleros,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,4,0
+194,CARDIGANS,Cardigans,Women/Clothing/Jumpers & sweaters/Cardigans,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+196,HOODIES_JUMPERS,Hoodies & sweatshirts,Women/Clothing/Jumpers & sweaters/Hoodies & sweatshirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1917,W_NEW_SWEATERS,Jumpers,Women/Clothing/Jumpers & sweaters/Jumpers,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+193,34_SLEEVE_SWEATERS,¾ sleeve sweaters,Women/Clothing/Jumpers & sweaters/Jumpers/¾-sleeve jumpers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,4,0
+529,KNITTED_SWEATERS,Knitted jumpers,Women/Clothing/Jumpers & sweaters/Jumpers/Knitted jumpers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+192,LONG_SWEATERS,Long jumpers,Women/Clothing/Jumpers & sweaters/Jumpers/Long jumpers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+1066,W_SWEATERS,Other jumpers,Women/Clothing/Jumpers & sweaters/Jumpers/Other jumpers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,4,0
+191,TURTLENECK_SWEATERS,Turtleneck jumpers,Women/Clothing/Jumpers & sweaters/Jumpers/Turtleneck jumpers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+190,V_NECK_SWEATERS,V-neck jumpers,Women/Clothing/Jumpers & sweaters/Jumpers/V-neck jumpers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+1067,KIMONOS,Kimonos,Women/Clothing/Jumpers & sweaters/Kimonos,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+197,WOM_PUL_OTHER,Other,Women/Clothing/Jumpers & sweaters/Other jumpers & sweaters,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,120,4,0
+1874,WOMEN_WAISTCOAT_SWEATER,Waistcoats,Women/Clothing/Jumpers & sweaters/Waistcoats,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,110,4,0
+1035,JUMPSUITS_UK,Jumpsuits & playsuits,Women/Clothing/Jumpsuits & playsuits,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,4,0
+1131,W_JUMPSUITS,Jumpsuits,Women/Clothing/Jumpsuits & playsuits/Jumpsuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+1134,W_OTHER_ROMPERS_JUMPSUITS,Other rompers & jumpsuits,Women/Clothing/Jumpsuits & playsuits/Other jumpsuits & playsuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1132,W_ROMPERS,Rompers,Women/Clothing/Jumpsuits & playsuits/Playsuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+29,LINGERIE,Lingerie & nightwear,Women/Clothing/Lingerie & nightwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,110,4,0
+119,BRAS,Bras,Women/Clothing/Lingerie & nightwear/Bras,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,53,0
+1030,DRESSING_GOWNS,Dressing gowns,Women/Clothing/Lingerie & nightwear/Dressing gowns,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+123,NIGHTWEAR,Nightwear,Women/Clothing/Lingerie & nightwear/Nightwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+120,PANTIES_THONGS,Panties,Women/Clothing/Lingerie & nightwear/Panties,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+229,WOM_LIN_SETS,Sets,Women/Clothing/Lingerie & nightwear/Sets,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1781,SHAPEWEAR,Shapewear,Women/Clothing/Lingerie & nightwear/Shapewear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1262,INTIMATES_SOCKS,Socks,Women/Clothing/Lingerie & nightwear/Socks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,72,0
+1263,INTIMATES_TIGHTS,Tights & stockings,Women/Clothing/Lingerie & nightwear/Tights & stockings,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+1176,MATERNITY_CLOTHES_MAIN,Maternity clothes,Women/Clothing/Maternity clothes,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,120,4,0
+2084,MATERNITY_SPORT,Maternity activewear,Women/Clothing/Maternity clothes/Maternity activewear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,150,4,0
+1183,MATERNITY_COATS_JACKETS,Maternity coats & jackets,Women/Clothing/Maternity clothes/Maternity coats & jackets,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+1182,MATERNITY_DRESSES,Maternity dresses,Women/Clothing/Maternity clothes/Maternity dresses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1184,MATERNITY_HOODIES_SWEATERS,Maternity hoodies & sweaters,Women/Clothing/Maternity clothes/Maternity jumpers & sweaters,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+1181,MATERNITY_ROMPERS_JUMPSUITS,Maternity jumpsuits & playsuits,Women/Clothing/Maternity clothes/Maternity jumpsuits & playsuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+1177,MATERNITY_PANTS,Maternity trousers,Women/Clothing/Maternity clothes/Maternity pants,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1185,MATERNITY_SHORTS,Maternity shorts,Women/Clothing/Maternity clothes/Maternity shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+1178,MATERNITY_SKIRTS,Maternity skirts,Women/Clothing/Maternity clothes/Maternity skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1186,MATERNITY_SWIMWEAR_BEACHWEAR,Maternity swimwear & beachwear,Women/Clothing/Maternity clothes/Maternity swimwear & beachwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,4,0
+1179,MATERNITY_TOPS,Maternity tops,Women/Clothing/Maternity clothes/Maternity tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+1614,MATERNITY_UNDERWEAR,Maternity underwear,Women/Clothing/Maternity clothes/Maternity underwear,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,4,0
+1616,MATERNITY_SLEEPWEAR_NEW,Maternity sleepwear,Women/Clothing/Maternity clothes/Maternity underwear/Maternity sleepwear,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5,4,0
+1618,MATERNITY_BRA,Pregnancy & breastfeeding bras,Women/Clothing/Maternity clothes/Maternity underwear/Pregnancy & breastfeeding bras,5,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15,53,0
+18,OTHER_CLOTHES,Other clothing,Women/Clothing/Other clothing,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,150,4,0
+1037,COATS_JACKETS,Outerwear,Women/Clothing/Outerwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+1773,CAPES_PONCHOS,Capes & ponchos,Women/Clothing/Outerwear/Capes & ponchos,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,4,0
+1907,W_COATS,Coats,Women/Clothing/Outerwear/Coats,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,4,0
+2525,WOMEN_DUFFLE_COATS,Duffle Coats,Women/Clothing/Outerwear/Coats/Duffle coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,4,0
+1090,FAUX_FUR_COATS,Faux fur coats,Women/Clothing/Outerwear/Coats/Faux fur coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,4,0
+2526,WOMEN_OVERCOATS_LONGCOATS,Overcoats & long coats,Women/Clothing/Outerwear/Coats/Overcoats & long coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,4,0
+1087,PARKAS,Parkas,Women/Clothing/Outerwear/Coats/Parkas,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,4,0
+1076,PEA_COATS,Peacoats,Women/Clothing/Outerwear/Coats/Peacoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,4,0
+1080,W_RAINCOATS,Raincoats,Women/Clothing/Outerwear/Coats/Raincoats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,4,0
+1834,W_TRENCH_COATS,Trench coats,Women/Clothing/Outerwear/Coats/Trench coats,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,4,0
+2524,WOMEN_OUTERWEAR_VESTS,Gilets & body warmers,Women/Clothing/Outerwear/Gilets & body warmers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,4,0
+1908,W_JACKETS,Jackets,Women/Clothing/Outerwear/Jackets,4,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,4,0
+2527,WOMEN_BIKER_RACER_JACKETS,Biker & racer jackets,Women/Clothing/Outerwear/Jackets/Biker & racer jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,4,0
+1078,BOMBER_JACKETS,Bomber jackets,Women/Clothing/Outerwear/Jackets/Bomber jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,4,0
+1079,DENIM_JACKETS,Denim jackets,Women/Clothing/Outerwear/Jackets/Denim jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,4,0
+2528,WOMEN_MILITARY_UTILITY_JACKETS,Field & utility jackets,Women/Clothing/Outerwear/Jackets/Field & utility jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,4,0
+1086,FLEECE_JACKETS,Fleece jackets,Women/Clothing/Outerwear/Jackets/Fleece jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,4,0
+2614,WOMEN_PUFFER_JACKETS,Puffer jackets,Women/Clothing/Outerwear/Jackets/Puffer jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,4,0
+2596,WOMEN_QUILTED_JACKETS,Quilted jackets,Women/Clothing/Outerwear/Jackets/Quilted jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,4,0
+2529,WOMEN_SHACKETS,Shackets,Women/Clothing/Outerwear/Jackets/Shackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,4,0
+2530,WOMEN_SKI_SNOWBOARD_JACKETS,Ski & snowboard jackets,Women/Clothing/Outerwear/Jackets/Ski & snowboard jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,4,0
+2531,WOMEN_VARISTY_JACKETS,Varsity jackets,Women/Clothing/Outerwear/Jackets/Varsity jackets,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,4,0
+2532,WOMEN_WINDBREAKERS,Windbreakers,Women/Clothing/Outerwear/Jackets/Windbreakers,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,4,0
+15,SHORTS_CAPRIS,Shorts & cropped trousers,Women/Clothing/Shorts & cropped trousers,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+1103,CARGO_SHORTS,Cargo shorts,Women/Clothing/Shorts & cropped trousers/Cargo shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+204,CAPRI_TROUSERS,Cropped trousers,Women/Clothing/Shorts & cropped trousers/Cropped trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+538,JEANS_SHORTS,Denim shorts,Women/Clothing/Shorts & cropped trousers/Denim shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1099,HIGH_WASTED_SHORTS,High-waisted shorts,Women/Clothing/Shorts & cropped trousers/High-waisted shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+203,MEDIUM_LENGTH_SHORTS,Knee-length shorts,Women/Clothing/Shorts & cropped trousers/Knee-length shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1101,LACE_SHORTS,Lace shorts,Women/Clothing/Shorts & cropped trousers/Lace shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1100,LEATHER_SHORTS,Leather shorts,Women/Clothing/Shorts & cropped trousers/Leather shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+1838,LOW_WAIST_SHORTS,Low-waisted shorts,Women/Clothing/Shorts & cropped trousers/Low-waisted shorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+205,WOM_SHO_OTHER,Other shorts & cropped trousers,Women/Clothing/Shorts & cropped trousers/Other shorts & cropped trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+11,SKIRTS,Skirts,Women/Clothing/Skirts,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+2928,WOMEN_ASYMMETRIC_SKIRTS,Asymmetric skirts,Women/Clothing/Skirts/Asymmetric skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,4,0
+2927,WOMEN_KNEE_LENGTH_SKIRTS_REAL,Knee-length skirts,Women/Clothing/Skirts/Knee-length skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,4,0
+200,MAXI_SKIRTS,Maxi skirts,Women/Clothing/Skirts/Maxi skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,4,0
+199,KNEE_LENGTH_SKIRTS,Midi skirts,Women/Clothing/Skirts/Midi skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,4,0
+198,MINI_SKIRTS,Mini skirts,Women/Clothing/Skirts/Mini skirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,4,0
+2929,WOMEN_SKORTS,Skorts,Women/Clothing/Skirts/Skorts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,4,0
+8,BLAZERS,Suits & blazers,Women/Clothing/Suits & blazers,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+532,WOM_BLA_BLAZERS,Blazers,Women/Clothing/Suits & blazers/Blazers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+1129,W_OTHER_SUITS_BLAZERS,Other suits & blazers,Women/Clothing/Suits & blazers/Other suits & blazers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1126,W_SKIRT_SUITS,Skirt and dresses suits,Women/Clothing/Suits & blazers/Skirt suits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1128,W_SUIT_SEPARATES,Suit separates,Women/Clothing/Suits & blazers/Suit separates,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1125,W_PANTSUITS,Pantsuits,Women/Clothing/Suits & blazers/Trouser suits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+28,SWIMWEAR,Swimwear,Women/Clothing/Swimwear,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,4,0
+219,TWO_PIECE_SWIMWEAR,Bikinis & tankinis,Women/Clothing/Swimwear/Bikinis & tankinis,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1780,COVERUP_SWIMWEAR,Cover-ups & sarongs,Women/Clothing/Swimwear/Cover-ups & sarongs,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+218,ONE_PIECES,One-pieces,Women/Clothing/Swimwear/One-pieces,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+220,WOM_SWI_OTHER,Other swimwear & beachwear,Women/Clothing/Swimwear/Other swimwear & beachwear,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,200,4,0
+12,TOPS_T_SHIRTS,Tops & t-shirts,Women/Clothing/Tops & t-shirts,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+225,MIDDLE_SLEEVE_BLOUSES,¾-sleeve tops,Women/Clothing/Tops & t-shirts/¾-sleeve tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+1043,BLOUSES,Blouses,Women/Clothing/Tops & t-shirts/Blouses,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+1835,TOPS_BODIES,Bodysuits,Women/Clothing/Tops & t-shirts/Bodysuits,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,100,4,0
+14,VESTS,Camis,Women/Clothing/Tops & t-shirts/Camis,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+1041,CROP_TOPS,Crop tops,Women/Clothing/Tops & t-shirts/Crop tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+1044,HALTER_TOPS,Halterneck tops,Women/Clothing/Tops & t-shirts/Halterneck tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,150,4,0
+224,LONG_SLEEVE_BLOUSES,Long-sleeved tops,Women/Clothing/Tops & t-shirts/Long-sleeved tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,4,0
+1042,TUBE_TOPS,Off-the-shoulder tops,Women/Clothing/Tops & t-shirts/Off-the-shoulder tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,120,4,0
+228,WOM_TOP_OTHER,Other tops & t-shirts,Women/Clothing/Tops & t-shirts/Other tops & t-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,160,4,0
+1837,PEPLUM_TOPS,Peplum tops,Women/Clothing/Tops & t-shirts/Peplum tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,140,4,0
+222,SHIRTS,Shirts,Women/Clothing/Tops & t-shirts/Shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,0,4,0
+223,SHORT_SLEEVE_BLOUSES,Short-sleeved tops,Women/Clothing/Tops & t-shirts/Short-sleeved tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+221,WOM_TOP_T_SHIRTS,T-shirts,Women/Clothing/Tops & t-shirts/T-shirts,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+227,TUNICS,Tunics,Women/Clothing/Tops & t-shirts/Tunics,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+1045,W_TURTLENECKS,Turtlenecks,Women/Clothing/Tops & t-shirts/Turtlenecks,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,130,4,0
+534,TANK_TOPS,Vest tops,Women/Clothing/Tops & t-shirts/Vest tops,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+9,TROUSERS,Trousers & leggings,Women/Clothing/Trousers & leggings,3,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+1070,CROPPED_PANTS,Cropped trousers & chinos,Women/Clothing/Trousers & leggings/Cropped trousers & chinos,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,4,0
+526,HAREMS,Harem pants,Women/Clothing/Trousers & leggings/Harem pants,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,80,4,0
+184,LEATHER_TROUSERS,Leather trousers,Women/Clothing/Trousers & leggings/Leather trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,60,4,0
+525,LEGGINGS,Leggings,Women/Clothing/Trousers & leggings/Leggings,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,70,4,0
+189,WOM_TRO_OTHER,Other trousers,Women/Clothing/Trousers & leggings/Other trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,90,4,0
+185,SKINNY_TROUSERS,Skinny trousers,Women/Clothing/Trousers & leggings/Skinny trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,30,4,0
+1846,W_SLIM_STRAIGHT_PANTS,Straight-leg trousers,Women/Clothing/Trousers & leggings/Straight-leg trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,50,4,0
+187,TAILORED_TROUSERS,Tailored trousers,Women/Clothing/Trousers & leggings/Tailored trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,40,4,0
+1071,WIDE_LEG_PANTS,Wide-leg trousers,Women/Clothing/Trousers & leggings/Wide-leg trousers,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,20,4,0
+16,FOOTWEAR,Shoes,Women/Shoes,2,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10,7,0
+2955,WOMEN_BALLERINAS,Ballerinas,Women/Shoes/Ballerinas,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,7,0
+2954,WOMEN_BOAT_SHOES_LOAFERS_MOCCASINS,"Boat shoes, loafers & moccasins","Women/Shoes/Boat shoes, loafers & moccasins",3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,7,0
+1049,W_BOOTS,Boots,Women/Shoes/Boots,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,7,0
+2618,WOMEN_ANKLE_BOOTS,Ankle boots,Women/Shoes/Boots/Ankle boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,7,0
+211,KNEE_LENGHT_BOOTS,Knee-high boots,Women/Shoes/Boots/Knee-high boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,7,0
+2619,WOMEN_MID_CALF_BOOTS,Mid-calf boots,Women/Shoes/Boots/Mid-calf boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,7,0
+2620,WOMEN_OVER_KNEE_BOOTS,Over-the-knee boots,Women/Shoes/Boots/Over-the-knee boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,7,0
+2621,WOMEN_SNOW_BOOTS,Snow boots,Women/Shoes/Boots/Snow boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,7,0
+213,WELLINGTON_BOOTS,Wellington boots,Women/Shoes/Boots/Wellington boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,7,0
+2622,WOMEN_WORK_BOOTS,Work boots,Women/Shoes/Boots/Work boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,7,0
+2623,WOMEN_CLOGS_MULES,Clogs & mules,Women/Shoes/Clogs & mules,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,7,0
+2953,WOMEN_ESPADRILLES,Espadrilles,Women/Shoes/Espadrilles,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,7,0
+2952,WOMEN_FLIPFLOPS_SLIDES,Flip-flops & slides,Women/Shoes/Flip-flops & slides,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,7,0
+543,HIGH_HEELS,Heels,Women/Shoes/Heels,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,7,0
+2951,WOMEN_LACE_UP_SHOES,Lace-up shoes,Women/Shoes/Lace-up shoes,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,8000,7,0
+2950,WOMEN_MARY_JANES_TBAR_SHOES,Mary Janes & T-bar shoes,Women/Shoes/Mary Janes & T-bar shoes,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,7,0
+2949,WOMEN_SANDALS,Sandals,Women/Shoes/Sandals,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,7,0
+215,SLIPPERS,Slippers,Women/Shoes/Slippers,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,7,0
+2630,WOMEN_SPORT_SHOES,Sports shoes,Women/Shoes/Sports shoes,3,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,12000,7,0
+2639,WOMEN_BASKETBALL_SHOES,Basketball shoes,Women/Shoes/Sports shoes/Basketball shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,7,0
+2640,WOMEN_CLIMBING_BOULDERING_SHOES,Climbing & bouldering shoes,Women/Shoes/Sports shoes/Climbing & bouldering shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,7,0
+2641,WOMEN_CYCLING_SHOES,Cycling shoes,Women/Shoes/Sports shoes/Cycling shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,7,0
+2642,WOMEN_DANCE_SHOES,Dance shoes,Women/Shoes/Sports shoes/Dance shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,4000,7,0
+2643,WOMEN_FOOTBALL_BOOTS,Football boots,Women/Shoes/Sports shoes/Football boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,5000,7,0
+2644,WOMEN_GOLF_SHOES,Golf shoes,Women/Shoes/Sports shoes/Golf shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,6000,7,0
+2645,WOMEN_HIKING_BOOTS_SHOES,Hiking boots & shoes,Women/Shoes/Sports shoes/Hiking boots & shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,7000,7,0
+2647,WOMEN_INDOOR_FOOTBALL_SHOES,Indoor football shoes,Women/Shoes/Sports shoes/Indoor football shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,7,0
+2648,WOMEN_INDOOR_TRAINING_SHOES,Indoor training shoes,Women/Shoes/Sports shoes/Indoor training shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,10000,7,0
+2649,WOMEN_MOTORBIKE_BOOTS,Motorcycle boots,Women/Shoes/Sports shoes/Motorcycle boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,11000,7,0
+2650,WOMEN_ROLLER_SKATES_BLADES,Roller skates & inline skates,Women/Shoes/Sports shoes/Roller skates & inline skates,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,12000,7,0
+2651,WOMEN_RUNNING_SHOES,Running shoes,Women/Shoes/Sports shoes/Running shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,13000,7,0
+2652,WOMEN_SKI_BOOTS,Ski boots,Women/Shoes/Sports shoes/Ski boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,14000,7,0
+2653,WOMEN_SNOWBOARD_BOOTS,Snowboard boots,Women/Shoes/Sports shoes/Snowboard boots,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,15000,7,0
+2654,WOMEN_SWIMMING_WATER_SHOES,Swimming & water shoes,Women/Shoes/Sports shoes/Swimming & water shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,16000,7,0
+2655,WOMEN_TENNIS_SHOES,Tennis shoes,Women/Shoes/Sports shoes/Tennis shoes,4,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,17000,7,0
+2632,WOMEN_TRAINERS,Trainers,Women/Shoes/Trainers,3,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,13000,7,0

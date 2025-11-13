@@ -37,7 +37,9 @@ class CSVProcessor:
         ]
         
         # Add new required columns
-        new_columns = ['material', 'size_group', 'author', 'title', 'isbn']
+        new_columns = ['material', 'pattern', 'size', 'size_group', 'author', 'title', 'isbn', 
+                       'language_book', 'video_game_rating', 'video_game_platform', 
+                       'internal_memory_capacity', 'sim_lock']
         for col in new_columns:
             if col in self.config.columns:
                 required_columns.append(self.config.columns[col])
@@ -74,40 +76,77 @@ class CSVProcessor:
         brand_col = self.config.columns['brand']
         colour_col = self.config.columns['colour']
         material_col = self.config.columns['material']
+        pattern_col = self.config.columns.get('pattern', 'Pattern')
+        size_col = self.config.columns.get('size', 'Size')
         size_group_col = self.config.columns['size_group']
         author_col = self.config.columns['author']
         title_col = self.config.columns['title']
         isbn_col = self.config.columns['isbn']
+        language_book_col = self.config.columns.get('language_book', 'Language Book')
+        video_game_rating_col = self.config.columns.get('video_game_rating', 'Video Game Rating')
+        video_game_platform_col = self.config.columns.get('video_game_platform', 'Video Game Platform')
+        internal_memory_capacity_col = self.config.columns.get('internal_memory_capacity', 'Internal memory capacity')
+        sim_lock_col = self.config.columns.get('sim_lock', 'Sim Lock')
 
         # Get column indices
         brand_idx = self._column_indices.get(brand_col)
         colour_idx = self._column_indices.get(colour_col)
         material_idx = self._column_indices.get(material_col)
+        pattern_idx = self._column_indices.get(pattern_col)
+        size_idx = self._column_indices.get(size_col)
         size_group_idx = self._column_indices.get(size_group_col)
         author_idx = self._column_indices.get(author_col)
         title_idx = self._column_indices.get(title_col)
         isbn_idx = self._column_indices.get(isbn_col)
+        language_book_idx = self._column_indices.get(language_book_col)
+        video_game_rating_idx = self._column_indices.get(video_game_rating_col)
+        video_game_platform_idx = self._column_indices.get(video_game_platform_col)
+        internal_memory_capacity_idx = self._column_indices.get(internal_memory_capacity_col)
+        sim_lock_idx = self._column_indices.get(sim_lock_col)
 
-        # Extract values safely
+        # Extract values safely - empty values are treated as FALSE (None)
         def safe_extract(idx, default=""):
             return row[idx].strip() if idx is not None and idx < len(row) else default
 
         brand_value = safe_extract(brand_idx)
         colour_value = safe_extract(colour_idx)
         material_value = safe_extract(material_idx)
+        pattern_value = safe_extract(pattern_idx)
+        size_value = safe_extract(size_idx)
         size_group_value = safe_extract(size_group_idx)
         author_value = safe_extract(author_idx)
         title_value = safe_extract(title_idx)
         isbn_value = safe_extract(isbn_idx)
+        language_book_value = safe_extract(language_book_idx)
+        video_game_rating_value = safe_extract(video_game_rating_idx)
+        video_game_platform_value = safe_extract(video_game_platform_idx)
+        internal_memory_capacity_value = safe_extract(internal_memory_capacity_idx)
+        sim_lock_value = safe_extract(sim_lock_idx)
+
+        # Helper function: empty string or missing = None (FALSE), TRUE/true/1 = True, anything else = FALSE
+        def parse_bool_value(value):
+            if value == '':
+                return None  # Empty means FALSE
+            elif value.upper() == 'TRUE' or value == '1':
+                return True
+            else:
+                return None  # Anything else is also treated as FALSE
 
         return CategoryAttributes(
             brand=True if brand_value == 'TRUE' else None if brand_value == '' else brand_value,
             colour=True if colour_value == 'TRUE' else None if colour_value == '' else colour_value,
             material=True if material_value == 'TRUE' else None if material_value == '' else material_value,
+            pattern=True if pattern_value == 'TRUE' else None if pattern_value == '' else pattern_value,
+            size=parse_bool_value(size_value),
             size_group=True if size_group_value == 'TRUE' else None if size_group_value == '' else size_group_value,
             author=True if author_value == 'TRUE' else None if author_value == '' else author_value,
             title=True if title_value == 'TRUE' else None if title_value == '' else title_value,
             isbn=True if isbn_value == 'TRUE' else None if isbn_value == '' else isbn_value,
+            language_book=parse_bool_value(language_book_value),
+            video_game_rating=parse_bool_value(video_game_rating_value),
+            video_game_platform=parse_bool_value(video_game_platform_value),
+            internal_memory_capacity=parse_bool_value(internal_memory_capacity_value),
+            sim_lock=parse_bool_value(sim_lock_value),
         )
 
     def _extract_path(self, row: List[str]) -> str:
@@ -181,10 +220,17 @@ class CSVProcessor:
             'brand': {'upload_form': True, 'filter': True},      # Upload Form + Filters
             'colour': {'upload_form': True, 'filter': True},     # Upload Form + Filters  
             'material': {'upload_form': True, 'filter': True},   # Upload Form + Filters
+            'pattern': {'upload_form': False, 'filter': True},   # Filters Only
+            'size': {'upload_form': True, 'filter': True},       # Upload Form + Filters
             'size_group': {'upload_form': True, 'filter': True}, # Upload Form + Filters
             'author': {'upload_form': True, 'filter': False},    # Upload Form Only
             'title': {'upload_form': True, 'filter': False},     # Upload Form Only
             'isbn': {'upload_form': True, 'filter': False},      # Upload Form Only
+            'language_book': {'upload_form': False, 'filter': True},  # Filters Only
+            'video_game_rating': {'upload_form': True, 'filter': True},  # Upload Form + Filters
+            'video_game_platform': {'upload_form': True, 'filter': True},  # Upload Form + Filters
+            'internal_memory_capacity': {'upload_form': True, 'filter': True},  # Upload Form + Filters
+            'sim_lock': {'upload_form': True, 'filter': True},  # Upload Form + Filters
         }
         
         # Check if each field is enabled (TRUE) in the CSV

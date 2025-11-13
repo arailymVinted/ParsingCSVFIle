@@ -11,10 +11,17 @@ csv:
     brand: "Brand"
     colour: "Colour"
     material: "Material"
+    pattern: "Pattern"
+    size: "Size"
     size_group: "Size group"
     author: "Author"
     title: "Title"
     isbn: "ISBN"
+    language_book: "Language Book"
+    video_game_rating: "Video Game Rating"
+    video_game_platform: "Video Game Platform"
+    internal_memory_capacity: "Internal memory capacity"
+    sim_lock: "Sim Lock"
     package_size: "All shippable"
     conditions:
       - "New with tags"
@@ -60,10 +67,16 @@ mappings:
       brand: { upload_form: true, filter: true }
       colour: { upload_form: true, filter: true }
       material: { upload_form: true, filter: true }
+      size: { upload_form: true, filter: true }
       size_group: { upload_form: true, filter: true }
+      video_game_rating: { upload_form: true, filter: true }
+      video_game_platform: { upload_form: true, filter: true }
+      internal_memory_capacity: { upload_form: true, filter: true }
+      sim_lock: { upload_form: true, filter: true }
     "Upload Form Only":
       author: { upload_form: true, filter: false }
       title: { upload_form: true, filter: false }
       isbn: { upload_form: true, filter: false }
     "Filters Only":
-      # Add any filters-only fields here if they exist in the future
+      pattern: { upload_form: false, filter: true }
+      language_book: { upload_form: false, filter: true }

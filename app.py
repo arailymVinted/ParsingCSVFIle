@@ -1,5 +1,6 @@
 # app.py
 from flask import Flask, render_template, request, send_file, jsonify
+import re
 import os
 import tempfile
 from pathlib import Path
@@ -22,6 +23,64 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+def _split_kotlin_into_chunks(content: str, max_per_chunk: int = 150):
+    """Split generated Kotlin into chunks by CategoryLaunchDataProviderModel entries.
+
+    We detect each entry by occurrences of 'CategoryLaunchDataProviderModel(' and group
+    up to max_per_chunk entries per returned chunk. Any header text (if present) is
+    included at the beginning of the first chunk, and footer is added to every chunk.
+    """
+    try:
+        # Find positions of each entry start
+        pattern = r"CategoryLaunchDataProviderModel\("
+        positions = [m.start() for m in re.finditer(pattern, content)]
+
+        if not positions:
+            return [content] if content.strip() else []
+
+        # Split content into header (before first entry), entry blocks, and footer (after last entry)
+        header = content[:positions[0]]
+        
+        # Extract footer - look for the closing pattern at the end: "        )\n    }\n}"
+        # The footer pattern is: closing parenthesis for arrayOf, then function closing brace, then class closing brace
+        footer_pattern = r'^\s+\)\s*\n\s+\}\s*\n\s*\}\s*$'
+        footer_match = re.search(footer_pattern, content, re.MULTILINE)
+        if footer_match:
+            footer = content[footer_match.start():].strip()
+            # Content without footer ends before footer starts
+            content_without_footer = content[:footer_match.start()].rstrip()
+        else:
+            footer = ""
+            content_without_footer = content
+        
+        # Extract each entry by slicing between start positions
+        # Adjust positions to be relative to content_without_footer
+        positions_in_content = [pos for pos in positions if pos < len(content_without_footer)]
+        if not positions_in_content:
+            positions_in_content = positions
+        
+        entries = []
+        for i, start in enumerate(positions_in_content):
+            if i + 1 < len(positions_in_content):
+                end = positions_in_content[i + 1]
+            else:
+                end = len(content_without_footer)
+            entries.append(content_without_footer[start:end].strip())
+
+        # Group entries into chunks
+        chunks = []
+        header_text = header.strip() + "\n\n" if header.strip() else ""
+        footer_text = "\n" + footer if footer else ""
+        for i in range(0, len(entries), max_per_chunk):
+            group = entries[i:i + max_per_chunk]
+            chunk_body = "\n\n".join(group)
+            # Add header and footer to every chunk
+            chunks.append((header_text + chunk_body + footer_text).strip())
+        return chunks
+    except Exception as e:
+        logger.error(f"Failed to split preview content: {e}")
+        return [content]
+
 def create_temp_config(csv_file_path: str) -> Config:
     """Create a temporary configuration for the uploaded CSV"""
     return Config(
@@ -36,10 +95,17 @@ def create_temp_config(csv_file_path: str) -> Config:
             'brand': 'Brand',
             'colour': 'Colour',
             'material': 'Material',
+            'pattern': 'Pattern',
+            'size': 'Size',
             'size_group': 'Size group',
             'author': 'Author',
             'title': 'Title',
             'isbn': 'ISBN',
+            'language_book': 'Language Book',
+            'video_game_rating': 'Video Game Rating',
+            'video_game_platform': 'Video Game Platform',
+            'internal_memory_capacity': 'Internal memory capacity',
+            'sim_lock': 'Sim Lock',
             'package_size': 'All shippable',
             'conditions': [
                 'New with tags',
@@ -173,8 +239,10 @@ def preview_kotlin():
         
         with open(kotlin_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        
-        return jsonify({'content': content})
+
+        # Split content into chunks of up to 150 CategoryLaunchDataProviderModel entries
+        chunks = _split_kotlin_into_chunks(content, max_per_chunk=150)
+        return jsonify({'chunks': chunks, 'total_chunks': len(chunks)})
     except Exception as e:
         logger.error(f"Error reading preview: {e}")
         return jsonify({'error': f'Error reading preview: {str(e)}'}), 500
