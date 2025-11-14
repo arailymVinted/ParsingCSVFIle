@@ -72,7 +72,7 @@ ID,Code,Name,Path,Level,Leaf,Brand,Colour,Material,Pattern,Size,Language Book,Vi
 3565,ELECTRONICS_PHONES,Mobile phones & communication,Electronics/Mobile phones & communication,2,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,3000,,0
 3662,ELECTRONICS_PHONES_ACCESSORIES,Mobile phone parts & accessories,Electronics/Mobile phones & communication/Mobile phone parts & accessories,3,FALSE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,2000,,0
 3667,ELECTRONICS_PHONEACC_CASES,Mobile phone cases,Electronics/Mobile phones & communication/Mobile phone parts & accessories/Mobile phone cases,4,TRUE,TRUE,TRUE,TRUE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,1000,,0
-2309,ENTERTAINMENT,Entertainment,Entertainment,1,FALSE,TRUE,FALSE,FALSE,FALSE,,FALSE,TRUE,,,,FALSE,FALSE,All Shipping,,,,,,,,280,,0
+2309,ENTERTAINMENT,Entertainment,Entertainment,1,FALSE,TRUE,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,FALSE,All Shipping,,,,,,,,280,,0
 2312,BOOKS,Books,Entertainment/Books,2,FALSE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,1000,,0
 5427,COLOURING_ACTIVITY_BOOKS,"Colouring, puzzle & activity books","Entertainment/Books/Colouring, puzzle & activity books",3,TRUE,FALSE,FALSE,FALSE,FALSE,,FALSE,FALSE,,,,FALSE,FALSE,All Shipping,,,,,,,,9000,,0
 5425,COMICS_MANGA,"Comics, manga & graphic novels","Entertainment/Books/Comics, manga & graphic novels",3,TRUE,FALSE,FALSE,FALSE,FALSE,,TRUE,,,,,TRUE,TRUE,All Shipping,,,,,,,,7000,,0
